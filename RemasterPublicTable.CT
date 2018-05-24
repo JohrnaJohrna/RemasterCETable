@@ -1,0 +1,774 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheatTable CheatEngineTableVersion="26">
+  <CheatEntries>
+    <CheatEntry>
+      <ID>86631</ID>
+      <Description>"Open"</Description>
+      <Options moHideChildren="1"/>
+      <LastState/>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+{$lua}
+if syntaxcheck then return end
+
+openProcess("DarkSoulsRemastered.exe")
+
+autoAssemble([[
+aobscanmodule(findit,DarkSoulsRemastered.exe,48 8B 05 ? ? ? ? 48 8B 48 68 48 85 C9 0F 84 ? ? ? ? 48 39 5E 10 0F 84 ? ? ? ? 48)
+registersymbol(findit)
+]])
+local addr = getAddress("findit")
+addr = addr + readInteger(addr + 3) + 7
+unregisterSymbol("WorldChrBase")
+registerSymbol("WorldChrBase", addr, true)
+
+autoAssemble([[
+aobscanmodule(findit1,DarkSoulsRemastered.exe,48 8B 3D ? ? ? ? 33 DB 4D 8B F1 8B F2 48 85 FF)
+registersymbol(findit1)
+]])
+local addr = getAddress("findit1")
+addr = addr + readInteger(addr + 3) + 7
+unregisterSymbol("ChrClassBase")
+registerSymbol("ChrClassBase", addr, true)
+
+autoAssemble([[
+aobscanmodule(findit2,DarkSoulsRemastered.exe,48 8B 05 ? ? ? ? 66 0F 7F 80 90 0B 00 00)
+registersymbol(findit2)
+]])
+local addr = getAddress("findit2")
+addr = addr + readInteger(addr + 3) + 7
+unregisterSymbol("ChrClassWarp")
+registerSymbol("ChrClassWarp", addr, true)
+
+autoAssemble([[
+aobscanmodule(findit3,DarkSoulsRemastered.exe,48 8B 05 ? ? ? ? 48 63 D1 48 8B 44 D0 08 C3)
+registersymbol(findit3)
+]])
+local addr = getAddress("findit3")
+addr = addr + readInteger(addr + 3) + 7
+unregisterSymbol("CamManBase")
+registerSymbol("CamManBase", addr, true)
+
+autoAssemble([[
+aobscanmodule(findit4,DarkSoulsRemastered.exe,48 8B 0D ? ? ? ? 89 99 58 15 00 00 4C 89 6D 58)
+registersymbol(findit4)
+]])
+local addr = getAddress("findit4")
+addr = addr + readInteger(addr + 3) + 7
+unregisterSymbol("LockTGTBase")
+registerSymbol("LockTGTBase", addr, true)
+
+autoAssemble([[
+aobscanmodule(findit5,DarkSoulsRemastered.exe,48 8B 05 ? ? ? ? 89 88 28 08 00 00 85 C9 ? ? C7 80 34 08 00 00 FF FF FF FF C3)
+registersymbol(findit5)
+]])
+local addr = getAddress("findit5")
+addr = addr + readInteger(addr + 3) + 7
+unregisterSymbol("MenuManBase")
+registerSymbol("MenuManBase", addr, true)
+
+autoAssemble([[
+aobscanmodule(findit6,DarkSoulsRemastered.exe,4C 8B 05 ? ? ? ? 48 63 C9 48 8D 04 C9 41 3B 54 C0 10)
+registersymbol(findit6)
+]])
+local addr = getAddress("findit5")
+addr = addr + readInteger(addr + 3) + 7
+unregisterSymbol("Param")
+registerSymbol("Param", addr, true)
+
+
+[DISABLE]
+{$asm}
+unregistersymbol(findit)
+unregistersymbol(WorldChrBase)
+
+unregistersymbol(findit1)
+unregistersymbol(ChrClassBase)
+
+unregistersymbol(findit2)
+unregistersymbol(ChrClassWarp)
+
+unregistersymbol(findit3)
+unregistersymbol(CamManBase)
+
+unregistersymbol(findit4)
+unregistersymbol(LockTGTBase)
+
+unregistersymbol(findit5)
+unregistersymbol(MenuManBase)
+
+unregistersymbol(findit6)
+unregistersymbol(Param)
+</AssemblerScript>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>86634</ID>
+          <Description>"VEH Debugger"</Description>
+          <LastState/>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[ENABLE]
+{$lua}
+debugProcess(2)
+[DISABLE]
+
+</AssemblerScript>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>86578</ID>
+          <Description>"ChrData"</Description>
+          <Options moHideChildren="1"/>
+          <LastState Value="" RealAddress="00000000"/>
+          <GroupHeader>1</GroupHeader>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>40</ID>
+              <Description>"DeathCam"</Description>
+              <Color>000000</Color>
+              <VariableType>Byte</VariableType>
+              <Address>WorldChrBase</Address>
+              <Offsets>
+                <Offset>70</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>86639</ID>
+              <Description>"Health"</Description>
+              <Color>000000</Color>
+              <VariableType>4 Bytes</VariableType>
+              <Address>WorldChrBase</Address>
+              <Offsets>
+                <Offset>3D8</Offset>
+                <Offset>68</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>86638</ID>
+              <Description>"MaxHealth"</Description>
+              <Color>000000</Color>
+              <VariableType>4 Bytes</VariableType>
+              <Address>ChrClassBase</Address>
+              <Offsets>
+                <Offset>3DC</Offset>
+                <Offset>68</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>86625</ID>
+              <Description>"ChrID"</Description>
+              <Color>000000</Color>
+              <VariableType>Float</VariableType>
+              <Address>ChrClassBase</Address>
+              <Offsets>
+                <Offset>11C</Offset>
+                <Offset>68</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>86586</ID>
+              <Description>"LastBonfire"</Description>
+              <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">1812100:Undead Asylum (Prison Cell)
+1812900:Undead Asylum (Prison Cell)
+1812960:Undead Asylum (Bonfire #1)
+1812961:Undead Asylum (Bonfire #2)
+1022960:Firelink Shrine
+1802960:Firelink Altar
+1012961:Sunlight Altar
+1012962:Undead Burg
+1012964:Undead Parish
+1202961:Forest Covenant
+1602961:Darkroot Basin
+1002900:Depths (Entrance)
+1002950:Depths (Gaping Dragon's Room)
+1002960:Depths
+1402962:Blighttown (Upper)
+1402961:Blighttown (Lower)
+1412961:Demon Ruins (Upper)
+1412962:Demon Ruins (Lower)
+1412963:Demon Ruins (Even lower)
+1402960:Quelagg's Domain (Daughter of Chaos)
+1322962:Great Hollow
+1322961:Ash Lake
+1322960:Ash Lake  (Everlasting Dragon Bonfire)
+1502961:Sen's Fortress
+1512970:Anor Londo (Entrance)
+1512960:Anor Londo  (1st bonfire)
+1512961:Anor Londo (Solaire)
+1512950:Chamber of the Princess
+1512962:Darkmoon Tomb
+1102960:Painted World of Ariamis
+1601354:New Londo Ruins (Entrance)
+1602960:New Londo Ruins (middle of the level)
+1602950:The Abyss
+1412964:Lost Izalith (First Bonfire)
+1412960:Lost Izalith (Hidden Bonfire)
+1412950:Bed Of Chaos (lord bonfire) 
+1302960:Catacombs (1st bonfire)
+1302961:Catacombs (2nd bonfire)
+1312950:The Catacombs-Lower Levels (Nito)
+1312961:Tomb of the Giants (Patches Bonfire)
+1312960:Tomb of the Giants (Deeper)
+1702960:Dukes Archives (Bonfire 2)
+1702961:Duke's Archives (Jail)
+1702900:Duke's Archives (Jail)
+1702962:Duke's Archives (Entrance lift)
+1702950:Duke's Archives (Seath)
+1702950:Crystal Cave
+1212963:Sanctuary Garden
+1212961:Oolacile Sanctuary
+1212962:Oolacile Township
+1212964:Oolacile Township Dungeon
+1212950:Chasm of the Abyss
+1801354:Kiln of the First Flame
+1802130:Lord Gwyn (Final boss)
+</DropDownList>
+              <VariableType>4 Bytes</VariableType>
+              <Address>ChrClassWarp</Address>
+              <Offsets>
+                <Offset>B24</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>86583</ID>
+              <Description>"Humanity"</Description>
+              <VariableType>4 Bytes</VariableType>
+              <Address>ChrClassBase</Address>
+              <Offsets>
+                <Offset>84</Offset>
+                <Offset>10</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>86581</ID>
+              <Description>"Souls"</Description>
+              <VariableType>4 Bytes</VariableType>
+              <Address>ChrClassBase</Address>
+              <Offsets>
+                <Offset>94</Offset>
+                <Offset>10</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>86614</ID>
+              <Description>"Name"</Description>
+              <VariableType>String</VariableType>
+              <Length>32</Length>
+              <Unicode>1</Unicode>
+              <CodePage>0</CodePage>
+              <ZeroTerminate>0</ZeroTerminate>
+              <Address>ChrClassBase</Address>
+              <Offsets>
+                <Offset>12C</Offset>
+                <Offset>10</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>82</ID>
+              <Description>"x"</Description>
+              <Color>000000</Color>
+              <VariableType>Float</VariableType>
+              <Address>WorldChrBase</Address>
+              <Offsets>
+                <Offset>10</Offset>
+                <Offset>28</Offset>
+                <Offset>48</Offset>
+                <Offset>68</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>86585</ID>
+              <Description>"z"</Description>
+              <Color>000000</Color>
+              <VariableType>Float</VariableType>
+              <Address>WorldChrBase</Address>
+              <Offsets>
+                <Offset>14</Offset>
+                <Offset>28</Offset>
+                <Offset>48</Offset>
+                <Offset>68</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>86584</ID>
+              <Description>"y"</Description>
+              <Color>000000</Color>
+              <VariableType>Float</VariableType>
+              <Address>WorldChrBase</Address>
+              <Offsets>
+                <Offset>18</Offset>
+                <Offset>28</Offset>
+                <Offset>48</Offset>
+                <Offset>68</Offset>
+              </Offsets>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>86630</ID>
+          <Description>"CameraPointers"</Description>
+          <Options moHideChildren="1"/>
+          <LastState Value="" RealAddress="00000000"/>
+          <GroupHeader>1</GroupHeader>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>86620</ID>
+              <Description>"CameraAng1"</Description>
+              <VariableType>Float</VariableType>
+              <Address>CamManBase</Address>
+              <Offsets>
+                <Offset>30</Offset>
+                <Offset>10</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>86621</ID>
+              <Description>"CameraAngZ"</Description>
+              <VariableType>Float</VariableType>
+              <Address>CamManBase</Address>
+              <Offsets>
+                <Offset>34</Offset>
+                <Offset>10</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>86619</ID>
+              <Description>"CameraAng2"</Description>
+              <VariableType>Float</VariableType>
+              <Address>CamManBase</Address>
+              <Offsets>
+                <Offset>38</Offset>
+                <Offset>10</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>86596</ID>
+              <Description>"CameraX"</Description>
+              <VariableType>Float</VariableType>
+              <Address>CamManBase</Address>
+              <Offsets>
+                <Offset>40</Offset>
+                <Offset>10</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>86599</ID>
+              <Description>"CameraZ"</Description>
+              <VariableType>Float</VariableType>
+              <Address>CamManBase</Address>
+              <Offsets>
+                <Offset>44</Offset>
+                <Offset>10</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>86598</ID>
+              <Description>"CameraY"</Description>
+              <VariableType>Float</VariableType>
+              <Address>CamManBase</Address>
+              <Offsets>
+                <Offset>48</Offset>
+                <Offset>10</Offset>
+              </Offsets>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>1337037769</ID>
+          <Description>"Animations"</Description>
+          <Options moHideChildren="1"/>
+          <LastState Value="" RealAddress="00000000"/>
+          <GroupHeader>1</GroupHeader>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>1337037770</ID>
+              <Description>"Last Anim"</Description>
+              <ShowAsSigned>1</ShowAsSigned>
+              <VariableType>4 Bytes</VariableType>
+              <Address>WorldChrBase</Address>
+              <Offsets>
+                <Offset>80</Offset>
+                <Offset>48</Offset>
+                <Offset>48</Offset>
+                <Offset>68</Offset>
+              </Offsets>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>90150</ID>
+          <Description>"ChrFlags"</Description>
+          <Options moHideChildren="1"/>
+          <LastState Value="" RealAddress="00000000"/>
+          <GroupHeader>1</GroupHeader>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>90151</ID>
+              <Description>"NoGravity"</Description>
+              <Color>000000</Color>
+              <VariableType>Binary</VariableType>
+              <BitStart>6</BitStart>
+              <BitLength>1</BitLength>
+              <ShowAsBinary>0</ShowAsBinary>
+              <Address>WorldChrBase</Address>
+              <Offsets>
+                <Offset>285</Offset>
+                <Offset>68</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>90152</ID>
+              <Description>"NoDead"</Description>
+              <Color>000000</Color>
+              <VariableType>Binary</VariableType>
+              <BitStart>5</BitStart>
+              <BitLength>1</BitLength>
+              <ShowAsBinary>0</ShowAsBinary>
+              <Address>WorldChrBase</Address>
+              <Offsets>
+                <Offset>514</Offset>
+                <Offset>68</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>90165</ID>
+              <Description>"NoDamage"</Description>
+              <Color>000000</Color>
+              <VariableType>Binary</VariableType>
+              <BitStart>0</BitStart>
+              <BitLength>1</BitLength>
+              <ShowAsBinary>0</ShowAsBinary>
+              <Address>WorldChrBase</Address>
+              <Offsets>
+                <Offset>514</Offset>
+                <Offset>68</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>90166</ID>
+              <Description>"NoHit"</Description>
+              <Color>000000</Color>
+              <VariableType>Binary</VariableType>
+              <BitStart>7</BitStart>
+              <BitLength>1</BitLength>
+              <ShowAsBinary>0</ShowAsBinary>
+              <Address>WorldChrBase</Address>
+              <Offsets>
+                <Offset>514</Offset>
+                <Offset>68</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>90164</ID>
+              <Description>"NoStaminaConsumption"</Description>
+              <Color>000000</Color>
+              <VariableType>Binary</VariableType>
+              <BitStart>2</BitStart>
+              <BitLength>1</BitLength>
+              <ShowAsBinary>0</ShowAsBinary>
+              <Address>WorldChrBase</Address>
+              <Offsets>
+                <Offset>515</Offset>
+                <Offset>68</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>90167</ID>
+              <Description>"NoAttack"</Description>
+              <Color>000000</Color>
+              <VariableType>Binary</VariableType>
+              <BitStart>0</BitStart>
+              <BitLength>1</BitLength>
+              <ShowAsBinary>0</ShowAsBinary>
+              <Address>WorldChrBase</Address>
+              <Offsets>
+                <Offset>515</Offset>
+                <Offset>68</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>90168</ID>
+              <Description>"NoMove"</Description>
+              <Color>000000</Color>
+              <VariableType>Binary</VariableType>
+              <BitStart>1</BitStart>
+              <BitLength>1</BitLength>
+              <ShowAsBinary>0</ShowAsBinary>
+              <Address>WorldChrBase</Address>
+              <Offsets>
+                <Offset>515</Offset>
+                <Offset>68</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>90163</ID>
+              <Description>"NoMpConsumption"</Description>
+              <Color>000000</Color>
+              <VariableType>Binary</VariableType>
+              <BitStart>3</BitStart>
+              <BitLength>1</BitLength>
+              <ShowAsBinary>0</ShowAsBinary>
+              <Address>WorldChrBase</Address>
+              <Offsets>
+                <Offset>515</Offset>
+                <Offset>68</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>90170</ID>
+              <Description>"NoUpdate"</Description>
+              <Color>000000</Color>
+              <VariableType>Binary</VariableType>
+              <BitStart>7</BitStart>
+              <BitLength>1</BitLength>
+              <ShowAsBinary>0</ShowAsBinary>
+              <Address>WorldChrBase</Address>
+              <Offsets>
+                <Offset>515</Offset>
+                <Offset>68</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>90169</ID>
+              <Description>"NoGoodsConsume"</Description>
+              <Color>000000</Color>
+              <VariableType>Binary</VariableType>
+              <BitStart>0</BitStart>
+              <BitLength>1</BitLength>
+              <ShowAsBinary>0</ShowAsBinary>
+              <Address>WorldChrBase</Address>
+              <Offsets>
+                <Offset>517</Offset>
+                <Offset>68</Offset>
+              </Offsets>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>86570</ID>
+          <Description>"Scripts"</Description>
+          <Options moHideChildren="1"/>
+          <LastState Value="" RealAddress="00000000"/>
+          <GroupHeader>1</GroupHeader>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>86577</ID>
+              <Description>"ItemGet without popup message"</Description>
+              <Options moHideChildren="1"/>
+              <LastState/>
+              <VariableType>Auto Assembler Script</VariableType>
+              <AssemblerScript>[ENABLE]
+alloc(ItemGet,512,DarkSoulsRemastered.exe)
+registersymbol(ItemGet)
+
+alloc(ItemData,16)
+registersymbol(ItemData)
+
+ItemGet:
+mov edx,[ItemData]
+mov rax,[141D00F50]
+mov r9d,[ItemData+04]
+mov byte ptr [rsp+38],01
+mov r8d,[ItemData+08]
+mov r12d,[ItemData+0C]
+mov [rsp+30],dil
+mov byte ptr [rsp+28],01
+mov r15,[rax+10]
+mov byte ptr [rsp+20],01
+lea rcx,[r15+280]
+sub rsp,38
+call 140738420
+add rsp,38
+ret
+
+ItemData:
+ dd 40000000 //Type
+ dd 15 //Count
+ dd #330 //ID
+ dd FFFFFFFF //Durability
+
+[DISABLE]
+dealloc(ItemGet)
+unregistersymbol(ItemGet)
+
+dealloc(ItemData)
+unregistersymbol(ItemData)
+</AssemblerScript>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>1337037757</ID>
+                  <Description>"ItemType"</Description>
+                  <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">00000000:Weapons
+10000000:Armor
+20000000:Rings
+40000000:Goods
+</DropDownList>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>ItemData</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>1337037760</ID>
+                  <Description>"ItemID"</Description>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>ItemData+8</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>1337037759</ID>
+                  <Description>"ItemCount"</Description>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>ItemData+4</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>1337037758</ID>
+                  <Description>"Durability"</Description>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>ItemData+C</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>1337037756</ID>
+                  <Description>"CreateThreadAddItem"</Description>
+                  <LastState/>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+{$lua}
+function disableSelf(sender)
+  sender.destroy()
+  local addr=getAddressList().getMemoryRecordByDescription("CreateThreadAddItem")
+  memoryrecord_unfreeze(addr)
+end
+ 
+local t=createTimer(nil)
+t.OnTimer=disableSelf
+t.Interval=1
+t.Enabled=true
+{$asm}
+CREATETHREAD(ItemGet)
+[DISABLE]
+ 
+</AssemblerScript>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>86588</ID>
+              <Description>"TeleportToTheLastBonfire"</Description>
+              <LastState/>
+              <VariableType>Auto Assembler Script</VariableType>
+              <AssemblerScript>[ENABLE]
+alloc(BonfireTP,512,DarkSoulsRemastered.exe)
+registersymbol(BonfireTP)
+
+createthread(BonfireTP)
+
+BonfireTP:
+mov rcx,[141CF1BB0]
+mov edx,01
+sub rsp,38
+call 14047BD60
+add rsp,38
+ret
+
+[DISABLE]
+dealloc(BonfireTP)
+unregistersymbol(BonfireTP)
+</AssemblerScript>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>86616</ID>
+              <Description>"NoClip Alpha"</Description>
+              <LastState/>
+              <VariableType>Auto Assembler Script</VariableType>
+              <AssemblerScript>[ENABLE]
+
+aobscanmodule(NoClip,DarkSoulsRemastered.exe,0F 29 5B 10 0F 57 C0)
+alloc(newmem,512,"DarkSoulsRemastered.exe"+2B22E9)
+
+label(code)
+label(return)
+
+newmem:
+
+  push r14
+  mov r14,[DarkSoulsRemastered.exe+1CEE830]
+  mov r14,[r14+68]
+  mov r14,[r14+48]
+  mov r14,[r14+28]
+  cmp rbx,r14
+  pop r14
+  jne code
+
+  push r15
+  mov r15,[141CE3858]
+  mov r15,[r15+10]
+  movd xmm13,[r15+30] //Ang1
+  movd xmm11,[r15+34] //AngZ
+  movd xmm14,[r15+38] //Ang2
+  pop r15
+
+  push r13
+  mov r13d,(float)0.49
+  movd xmm12,r13d
+  mulss xmm13,xmm12
+
+  addss xmm13,[rbx+10]
+  movss [rbx+10],xmm13
+
+  xorps xmm12,xmm12
+
+  mov r13d,(float)0.49
+  movd xmm12,r13d
+  mulss xmm14,xmm12
+
+  addss xmm14,[rbx+18]
+  movss [rbx+18],xmm14
+
+  xorps xmm12,xmm12
+
+  mov r13d,(float)0.11
+  movd xmm12,r13d
+  mulss xmm11,xmm12
+
+  addss xmm11,[rbx+18]
+  movss [rbx+18],xmm11
+
+  pop r13
+
+  xorps xmm0,xmm0
+  jmp return
+code:
+  movaps [rbx+10],xmm3
+  xorps xmm0,xmm0
+  jmp return
+
+NoClip:
+  jmp newmem
+  nop
+  nop
+return:
+registersymbol(NoClip)
+
+[DISABLE]
+
+NoClip:
+  db 0F 29 5B 10 0F 57 C0
+
+unregistersymbol(NoClip)
+dealloc(newmem)
+</AssemblerScript>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>86628</ID>
+          <Description>"LockFlag"</Description>
+          <VariableType>Byte</VariableType>
+          <Address>LockTGTBase</Address>
+          <Offsets>
+            <Offset>1431</Offset>
+          </Offsets>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+  </CheatEntries>
+  <UserdefinedSymbols/>
+</CheatTable>
