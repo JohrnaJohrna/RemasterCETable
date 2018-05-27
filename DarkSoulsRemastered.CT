@@ -146,7 +146,7 @@ debugProcess(2)
             <CheatEntry>
               <ID>86614</ID>
               <Description>"Name"</Description>
-              <LastState RealAddress="0E6485BC"/>
+              <LastState RealAddress="0E6425BC"/>
               <VariableType>String</VariableType>
               <Length>32</Length>
               <Unicode>1</Unicode>
@@ -161,7 +161,7 @@ debugProcess(2)
             <CheatEntry>
               <ID>1337038108</ID>
               <Description>"OnlineAreaID"</Description>
-              <LastState Value="151020" RealAddress="0F91EFA4"/>
+              <LastState Value="151022" RealAddress="0FF3B694"/>
               <ShowAsSigned>1</ShowAsSigned>
               <VariableType>4 Bytes</VariableType>
               <Address>WorldChrBase</Address>
@@ -173,7 +173,8 @@ debugProcess(2)
             <CheatEntry>
               <ID>1337037788</ID>
               <Description>"IFrameFlag"</Description>
-              <LastState Value="0" RealAddress="0F920080"/>
+              <LastState Value="00" RealAddress="0FF3C770"/>
+              <ShowAsHex>1</ShowAsHex>
               <ShowAsSigned>1</ShowAsSigned>
               <VariableType>Byte</VariableType>
               <Address>WorldChrBase</Address>
@@ -242,7 +243,7 @@ debugProcess(2)
 1801354:Kiln of the First Flame
 1802130:Lord Gwyn (Final boss)
 </DropDownList>
-              <LastState Value="1512961" RealAddress="0E647314"/>
+              <LastState Value="1512961" RealAddress="0E641314"/>
               <VariableType>4 Bytes</VariableType>
               <Address>ChrClassWarp</Address>
               <Offsets>
@@ -268,7 +269,7 @@ debugProcess(2)
                 <CheatEntry>
                   <ID>82</ID>
                   <Description>"X"</Description>
-                  <LastState Value="505.4859924" RealAddress="0F920610"/>
+                  <LastState Value="466.2705383" RealAddress="0FF3CD00"/>
                   <Color>000000</Color>
                   <VariableType>Float</VariableType>
                   <Address>WorldChrBase</Address>
@@ -282,7 +283,7 @@ debugProcess(2)
                 <CheatEntry>
                   <ID>86585</ID>
                   <Description>"Z"</Description>
-                  <LastState Value="135" RealAddress="0F920614"/>
+                  <LastState Value="133.8000031" RealAddress="0FF3CD04"/>
                   <Color>000000</Color>
                   <VariableType>Float</VariableType>
                   <Address>WorldChrBase</Address>
@@ -296,7 +297,7 @@ debugProcess(2)
                 <CheatEntry>
                   <ID>86584</ID>
                   <Description>"Y"</Description>
-                  <LastState Value="174.4203796" RealAddress="0F920618"/>
+                  <LastState Value="292.6605835" RealAddress="0FF3CD08"/>
                   <Color>000000</Color>
                   <VariableType>Float</VariableType>
                   <Address>WorldChrBase</Address>
@@ -310,7 +311,7 @@ debugProcess(2)
                 <CheatEntry>
                   <ID>1337037891</ID>
                   <Description>"Stable X"</Description>
-                  <LastState Value="505.4859924" RealAddress="0E647380"/>
+                  <LastState Value="465.3630676" RealAddress="0E641380"/>
                   <VariableType>Float</VariableType>
                   <Address>ChrClassWarp</Address>
                   <Offsets>
@@ -320,7 +321,7 @@ debugProcess(2)
                 <CheatEntry>
                   <ID>1337037893</ID>
                   <Description>"Stable Z"</Description>
-                  <LastState Value="135" RealAddress="0E647384"/>
+                  <LastState Value="133.8000031" RealAddress="0E641384"/>
                   <VariableType>Float</VariableType>
                   <Address>ChrClassWarp</Address>
                   <Offsets>
@@ -330,7 +331,7 @@ debugProcess(2)
                 <CheatEntry>
                   <ID>1337037892</ID>
                   <Description>"Stable Y"</Description>
-                  <LastState Value="174.4203796" RealAddress="0E647388"/>
+                  <LastState Value="292.7700195" RealAddress="0E641388"/>
                   <VariableType>Float</VariableType>
                   <Address>ChrClassWarp</Address>
                   <Offsets>
@@ -340,7 +341,7 @@ debugProcess(2)
                 <CheatEntry>
                   <ID>1337037894</ID>
                   <Description>"Stable Angle"</Description>
-                  <LastState Value="1.202841878" RealAddress="0E647394"/>
+                  <LastState Value="-1.493318319" RealAddress="0E641394"/>
                   <VariableType>Float</VariableType>
                   <Address>ChrClassWarp</Address>
                   <Offsets>
@@ -359,7 +360,7 @@ debugProcess(2)
                 <CheatEntry>
                   <ID>1337046426</ID>
                   <Description>"Spell1"</Description>
-                  <LastState Value="-1" RealAddress="0E657258"/>
+                  <LastState Value="-1" RealAddress="0E651258"/>
                   <ShowAsSigned>1</ShowAsSigned>
                   <VariableType>4 Bytes</VariableType>
                   <Address>ChrClassBase</Address>
@@ -372,7 +373,7 @@ debugProcess(2)
                 <CheatEntry>
                   <ID>1337046432</ID>
                   <Description>"NumberOfCasts *3"</Description>
-                  <LastState Value="0" RealAddress="0E65725C"/>
+                  <LastState Value="0" RealAddress="0E65125C"/>
                   <ShowAsSigned>1</ShowAsSigned>
                   <VariableType>4 Bytes</VariableType>
                   <Address>ChrClassBase</Address>
@@ -385,7 +386,7 @@ debugProcess(2)
                 <CheatEntry>
                   <ID>1337046431</ID>
                   <Description>"Spell2"</Description>
-                  <LastState Value="-1" RealAddress="0E657260"/>
+                  <LastState Value="-1" RealAddress="0E651260"/>
                   <ShowAsSigned>1</ShowAsSigned>
                   <VariableType>4 Bytes</VariableType>
                   <Address>ChrClassBase</Address>
@@ -398,7 +399,7 @@ debugProcess(2)
                 <CheatEntry>
                   <ID>1337046433</ID>
                   <Description>"NumberOfCasts *3"</Description>
-                  <LastState Value="0" RealAddress="0E657264"/>
+                  <LastState Value="0" RealAddress="0E651264"/>
                   <ShowAsSigned>1</ShowAsSigned>
                   <VariableType>4 Bytes</VariableType>
                   <Address>ChrClassBase</Address>
@@ -411,7 +412,7 @@ debugProcess(2)
                 <CheatEntry>
                   <ID>1337046434</ID>
                   <Description>"Spell3"</Description>
-                  <LastState Value="-1" RealAddress="0E657268"/>
+                  <LastState Value="-1" RealAddress="0E651268"/>
                   <ShowAsSigned>1</ShowAsSigned>
                   <VariableType>4 Bytes</VariableType>
                   <Address>ChrClassBase</Address>
@@ -424,7 +425,7 @@ debugProcess(2)
                 <CheatEntry>
                   <ID>1337046435</ID>
                   <Description>"NumberOfCasts *3"</Description>
-                  <LastState Value="0" RealAddress="0E65726C"/>
+                  <LastState Value="0" RealAddress="0E65126C"/>
                   <ShowAsSigned>1</ShowAsSigned>
                   <VariableType>4 Bytes</VariableType>
                   <Address>ChrClassBase</Address>
@@ -437,7 +438,7 @@ debugProcess(2)
                 <CheatEntry>
                   <ID>1337046436</ID>
                   <Description>"Spell4"</Description>
-                  <LastState Value="-1" RealAddress="0E657270"/>
+                  <LastState Value="-1" RealAddress="0E651270"/>
                   <ShowAsSigned>1</ShowAsSigned>
                   <VariableType>4 Bytes</VariableType>
                   <Address>ChrClassBase</Address>
@@ -450,7 +451,7 @@ debugProcess(2)
                 <CheatEntry>
                   <ID>1337046437</ID>
                   <Description>"NumberOfCasts *3"</Description>
-                  <LastState Value="0" RealAddress="0E657274"/>
+                  <LastState Value="0" RealAddress="0E651274"/>
                   <ShowAsSigned>1</ShowAsSigned>
                   <VariableType>4 Bytes</VariableType>
                   <Address>ChrClassBase</Address>
@@ -463,7 +464,7 @@ debugProcess(2)
                 <CheatEntry>
                   <ID>1337046438</ID>
                   <Description>"Spell5"</Description>
-                  <LastState Value="-1" RealAddress="0E657278"/>
+                  <LastState Value="-1" RealAddress="0E651278"/>
                   <ShowAsSigned>1</ShowAsSigned>
                   <VariableType>4 Bytes</VariableType>
                   <Address>ChrClassBase</Address>
@@ -476,7 +477,7 @@ debugProcess(2)
                 <CheatEntry>
                   <ID>1337046439</ID>
                   <Description>"NumberOfCasts *3"</Description>
-                  <LastState Value="0" RealAddress="0E65727C"/>
+                  <LastState Value="0" RealAddress="0E65127C"/>
                   <ShowAsSigned>1</ShowAsSigned>
                   <VariableType>4 Bytes</VariableType>
                   <Address>ChrClassBase</Address>
@@ -489,7 +490,7 @@ debugProcess(2)
                 <CheatEntry>
                   <ID>1337046443</ID>
                   <Description>"Spell6"</Description>
-                  <LastState Value="-1" RealAddress="0E657280"/>
+                  <LastState Value="-1" RealAddress="0E651280"/>
                   <ShowAsSigned>1</ShowAsSigned>
                   <VariableType>4 Bytes</VariableType>
                   <Address>ChrClassBase</Address>
@@ -502,7 +503,7 @@ debugProcess(2)
                 <CheatEntry>
                   <ID>1337046444</ID>
                   <Description>"NumberOfCasts *3"</Description>
-                  <LastState Value="0" RealAddress="0E657284"/>
+                  <LastState Value="0" RealAddress="0E651284"/>
                   <ShowAsSigned>1</ShowAsSigned>
                   <VariableType>4 Bytes</VariableType>
                   <Address>ChrClassBase</Address>
@@ -515,7 +516,7 @@ debugProcess(2)
                 <CheatEntry>
                   <ID>1337046441</ID>
                   <Description>"Spell7"</Description>
-                  <LastState Value="-1" RealAddress="0E657288"/>
+                  <LastState Value="-1" RealAddress="0E651288"/>
                   <ShowAsSigned>1</ShowAsSigned>
                   <VariableType>4 Bytes</VariableType>
                   <Address>ChrClassBase</Address>
@@ -528,7 +529,7 @@ debugProcess(2)
                 <CheatEntry>
                   <ID>1337046442</ID>
                   <Description>"NumberOfCasts *3"</Description>
-                  <LastState Value="0" RealAddress="0E65728C"/>
+                  <LastState Value="0" RealAddress="0E65128C"/>
                   <ShowAsSigned>1</ShowAsSigned>
                   <VariableType>4 Bytes</VariableType>
                   <Address>ChrClassBase</Address>
@@ -541,7 +542,7 @@ debugProcess(2)
                 <CheatEntry>
                   <ID>1337046445</ID>
                   <Description>"Spell8"</Description>
-                  <LastState Value="-1" RealAddress="0E657290"/>
+                  <LastState Value="-1" RealAddress="0E651290"/>
                   <ShowAsSigned>1</ShowAsSigned>
                   <VariableType>4 Bytes</VariableType>
                   <Address>ChrClassBase</Address>
@@ -554,7 +555,7 @@ debugProcess(2)
                 <CheatEntry>
                   <ID>1337046446</ID>
                   <Description>"NumberOfCasts *3"</Description>
-                  <LastState Value="0" RealAddress="0E657294"/>
+                  <LastState Value="0" RealAddress="0E651294"/>
                   <ShowAsSigned>1</ShowAsSigned>
                   <VariableType>4 Bytes</VariableType>
                   <Address>ChrClassBase</Address>
@@ -567,7 +568,7 @@ debugProcess(2)
                 <CheatEntry>
                   <ID>1337046447</ID>
                   <Description>"Spell9"</Description>
-                  <LastState Value="-1" RealAddress="0E657298"/>
+                  <LastState Value="-1" RealAddress="0E651298"/>
                   <ShowAsSigned>1</ShowAsSigned>
                   <VariableType>4 Bytes</VariableType>
                   <Address>ChrClassBase</Address>
@@ -580,7 +581,7 @@ debugProcess(2)
                 <CheatEntry>
                   <ID>1337046448</ID>
                   <Description>"NumberOfCasts *3"</Description>
-                  <LastState Value="0" RealAddress="0E65729C"/>
+                  <LastState Value="0" RealAddress="0E65129C"/>
                   <ShowAsSigned>1</ShowAsSigned>
                   <VariableType>4 Bytes</VariableType>
                   <Address>ChrClassBase</Address>
@@ -593,7 +594,7 @@ debugProcess(2)
                 <CheatEntry>
                   <ID>1337046449</ID>
                   <Description>"Spell10"</Description>
-                  <LastState Value="-1" RealAddress="0E6572A0"/>
+                  <LastState Value="-1" RealAddress="0E6512A0"/>
                   <ShowAsSigned>1</ShowAsSigned>
                   <VariableType>4 Bytes</VariableType>
                   <Address>ChrClassBase</Address>
@@ -606,7 +607,7 @@ debugProcess(2)
                 <CheatEntry>
                   <ID>1337046450</ID>
                   <Description>"NumberOfCasts *3"</Description>
-                  <LastState Value="0" RealAddress="0E6572A4"/>
+                  <LastState Value="0" RealAddress="0E6512A4"/>
                   <ShowAsSigned>1</ShowAsSigned>
                   <VariableType>4 Bytes</VariableType>
                   <Address>ChrClassBase</Address>
@@ -619,7 +620,7 @@ debugProcess(2)
                 <CheatEntry>
                   <ID>1337046451</ID>
                   <Description>"Spell11"</Description>
-                  <LastState Value="-1" RealAddress="0E6572A8"/>
+                  <LastState Value="-1" RealAddress="0E6512A8"/>
                   <ShowAsSigned>1</ShowAsSigned>
                   <VariableType>4 Bytes</VariableType>
                   <Address>ChrClassBase</Address>
@@ -632,7 +633,7 @@ debugProcess(2)
                 <CheatEntry>
                   <ID>1337046452</ID>
                   <Description>"NumberOfCasts *3"</Description>
-                  <LastState Value="0" RealAddress="0E6572AC"/>
+                  <LastState Value="0" RealAddress="0E6512AC"/>
                   <ShowAsSigned>1</ShowAsSigned>
                   <VariableType>4 Bytes</VariableType>
                   <Address>ChrClassBase</Address>
@@ -645,7 +646,7 @@ debugProcess(2)
                 <CheatEntry>
                   <ID>1337046453</ID>
                   <Description>"Spell12"</Description>
-                  <LastState Value="-1" RealAddress="0E6572B0"/>
+                  <LastState Value="-1" RealAddress="0E6512B0"/>
                   <ShowAsSigned>1</ShowAsSigned>
                   <VariableType>4 Bytes</VariableType>
                   <Address>ChrClassBase</Address>
@@ -658,7 +659,7 @@ debugProcess(2)
                 <CheatEntry>
                   <ID>1337046454</ID>
                   <Description>"NumberOfCasts *3"</Description>
-                  <LastState Value="0" RealAddress="0E6572B4"/>
+                  <LastState Value="0" RealAddress="0E6512B4"/>
                   <ShowAsSigned>1</ShowAsSigned>
                   <VariableType>4 Bytes</VariableType>
                   <Address>ChrClassBase</Address>
@@ -680,7 +681,7 @@ debugProcess(2)
                 <CheatEntry>
                   <ID>1337046371</ID>
                   <Description>"Weapon1"</Description>
-                  <LastState Value="900000" RealAddress="0E6487B4"/>
+                  <LastState Value="1450000" RealAddress="0E6427B4"/>
                   <ShowAsSigned>1</ShowAsSigned>
                   <VariableType>4 Bytes</VariableType>
                   <Address>ChrClassBase</Address>
@@ -692,7 +693,7 @@ debugProcess(2)
                 <CheatEntry>
                   <ID>1337046375</ID>
                   <Description>"Weapon2"</Description>
-                  <LastState Value="212000" RealAddress="0E6487B8"/>
+                  <LastState Value="201000" RealAddress="0E6427B8"/>
                   <ShowAsSigned>1</ShowAsSigned>
                   <VariableType>4 Bytes</VariableType>
                   <Address>ChrClassBase</Address>
@@ -704,7 +705,7 @@ debugProcess(2)
                 <CheatEntry>
                   <ID>1337046374</ID>
                   <Description>"Weapon3"</Description>
-                  <LastState Value="900000" RealAddress="0E6487BC"/>
+                  <LastState Value="900000" RealAddress="0E6427BC"/>
                   <ShowAsSigned>1</ShowAsSigned>
                   <VariableType>4 Bytes</VariableType>
                   <Address>ChrClassBase</Address>
@@ -716,7 +717,7 @@ debugProcess(2)
                 <CheatEntry>
                   <ID>1337046373</ID>
                   <Description>"Weapon4"</Description>
-                  <LastState Value="900000" RealAddress="0E6487C0"/>
+                  <LastState Value="900000" RealAddress="0E6427C0"/>
                   <ShowAsSigned>1</ShowAsSigned>
                   <VariableType>4 Bytes</VariableType>
                   <Address>ChrClassBase</Address>
@@ -728,7 +729,7 @@ debugProcess(2)
                 <CheatEntry>
                   <ID>1337046372</ID>
                   <Description>"ArrowSlot1"</Description>
-                  <LastState Value="-1" RealAddress="0E6487C4"/>
+                  <LastState Value="-1" RealAddress="0E6427C4"/>
                   <ShowAsSigned>1</ShowAsSigned>
                   <VariableType>4 Bytes</VariableType>
                   <Address>ChrClassBase</Address>
@@ -740,7 +741,7 @@ debugProcess(2)
                 <CheatEntry>
                   <ID>1337046369</ID>
                   <Description>"BoltSlot1"</Description>
-                  <LastState Value="-1" RealAddress="0E6487C8"/>
+                  <LastState Value="-1" RealAddress="0E6427C8"/>
                   <ShowAsSigned>1</ShowAsSigned>
                   <VariableType>4 Bytes</VariableType>
                   <Address>ChrClassBase</Address>
@@ -752,7 +753,7 @@ debugProcess(2)
                 <CheatEntry>
                   <ID>1337046370</ID>
                   <Description>"ArrowSlot2"</Description>
-                  <LastState Value="-1" RealAddress="0E6487CC"/>
+                  <LastState Value="-1" RealAddress="0E6427CC"/>
                   <ShowAsSigned>1</ShowAsSigned>
                   <VariableType>4 Bytes</VariableType>
                   <Address>ChrClassBase</Address>
@@ -764,7 +765,7 @@ debugProcess(2)
                 <CheatEntry>
                   <ID>1337046362</ID>
                   <Description>"BoltSlot2"</Description>
-                  <LastState Value="-1" RealAddress="0E6487D0"/>
+                  <LastState Value="-1" RealAddress="0E6427D0"/>
                   <ShowAsSigned>1</ShowAsSigned>
                   <VariableType>4 Bytes</VariableType>
                   <Address>ChrClassBase</Address>
@@ -776,7 +777,7 @@ debugProcess(2)
                 <CheatEntry>
                   <ID>1337046368</ID>
                   <Description>"Helmet"</Description>
-                  <LastState Value="210000" RealAddress="0E6487D4"/>
+                  <LastState Value="210000" RealAddress="0E6427D4"/>
                   <ShowAsSigned>1</ShowAsSigned>
                   <VariableType>4 Bytes</VariableType>
                   <Address>ChrClassBase</Address>
@@ -788,7 +789,7 @@ debugProcess(2)
                 <CheatEntry>
                   <ID>1337046367</ID>
                   <Description>"Armour"</Description>
-                  <LastState Value="211000" RealAddress="0E6487D8"/>
+                  <LastState Value="211000" RealAddress="0E6427D8"/>
                   <ShowAsSigned>1</ShowAsSigned>
                   <VariableType>4 Bytes</VariableType>
                   <Address>ChrClassBase</Address>
@@ -800,7 +801,7 @@ debugProcess(2)
                 <CheatEntry>
                   <ID>1337046366</ID>
                   <Description>"Gauntlets"</Description>
-                  <LastState Value="212000" RealAddress="0E6487DC"/>
+                  <LastState Value="212000" RealAddress="0E6427DC"/>
                   <ShowAsSigned>1</ShowAsSigned>
                   <VariableType>4 Bytes</VariableType>
                   <Address>ChrClassBase</Address>
@@ -812,7 +813,7 @@ debugProcess(2)
                 <CheatEntry>
                   <ID>1337046365</ID>
                   <Description>"Leggins"</Description>
-                  <LastState Value="213000" RealAddress="0E6487E0"/>
+                  <LastState Value="213000" RealAddress="0E6427E0"/>
                   <ShowAsSigned>1</ShowAsSigned>
                   <VariableType>4 Bytes</VariableType>
                   <Address>ChrClassBase</Address>
@@ -824,7 +825,7 @@ debugProcess(2)
                 <CheatEntry>
                   <ID>1337046363</ID>
                   <Description>"RingSlot1"</Description>
-                  <LastState Value="-1" RealAddress="0E6487E8"/>
+                  <LastState Value="-1" RealAddress="0E6427E8"/>
                   <ShowAsSigned>1</ShowAsSigned>
                   <VariableType>4 Bytes</VariableType>
                   <Address>ChrClassBase</Address>
@@ -836,7 +837,7 @@ debugProcess(2)
                 <CheatEntry>
                   <ID>1337046364</ID>
                   <Description>"RingSlot2"</Description>
-                  <LastState Value="-1" RealAddress="0E6487EC"/>
+                  <LastState Value="-1" RealAddress="0E6427EC"/>
                   <ShowAsSigned>1</ShowAsSigned>
                   <VariableType>4 Bytes</VariableType>
                   <Address>ChrClassBase</Address>
@@ -848,7 +849,7 @@ debugProcess(2)
                 <CheatEntry>
                   <ID>1337046378</ID>
                   <Description>"GoodsSlot1"</Description>
-                  <LastState Value="-1" RealAddress="0E6487F0"/>
+                  <LastState Value="103" RealAddress="0E6427F0"/>
                   <ShowAsSigned>1</ShowAsSigned>
                   <VariableType>4 Bytes</VariableType>
                   <Address>ChrClassBase</Address>
@@ -860,7 +861,7 @@ debugProcess(2)
                 <CheatEntry>
                   <ID>1337046377</ID>
                   <Description>"GoodsSlot2"</Description>
-                  <LastState Value="-1" RealAddress="0E6487F4"/>
+                  <LastState Value="-1" RealAddress="0E6427F4"/>
                   <ShowAsSigned>1</ShowAsSigned>
                   <VariableType>4 Bytes</VariableType>
                   <Address>ChrClassBase</Address>
@@ -872,7 +873,7 @@ debugProcess(2)
                 <CheatEntry>
                   <ID>1337046376</ID>
                   <Description>"GoodsSlot3"</Description>
-                  <LastState Value="-1" RealAddress="0E6487F8"/>
+                  <LastState Value="-1" RealAddress="0E6427F8"/>
                   <ShowAsSigned>1</ShowAsSigned>
                   <VariableType>4 Bytes</VariableType>
                   <Address>ChrClassBase</Address>
@@ -884,7 +885,7 @@ debugProcess(2)
                 <CheatEntry>
                   <ID>1337046380</ID>
                   <Description>"GoodsSlot4"</Description>
-                  <LastState Value="-1" RealAddress="0E6487FC"/>
+                  <LastState Value="-1" RealAddress="0E6427FC"/>
                   <ShowAsSigned>1</ShowAsSigned>
                   <VariableType>4 Bytes</VariableType>
                   <Address>ChrClassBase</Address>
@@ -896,7 +897,7 @@ debugProcess(2)
                 <CheatEntry>
                   <ID>1337046379</ID>
                   <Description>"GoodsSlot5"</Description>
-                  <LastState Value="-1" RealAddress="0E648800"/>
+                  <LastState Value="-1" RealAddress="0E642800"/>
                   <ShowAsSigned>1</ShowAsSigned>
                   <VariableType>4 Bytes</VariableType>
                   <Address>ChrClassBase</Address>
@@ -917,7 +918,7 @@ debugProcess(2)
                 <CheatEntry>
                   <ID>1337038078</ID>
                   <Description>"WeaponSlot1"</Description>
-                  <LastState Value="900000" RealAddress="0F920574"/>
+                  <LastState Value="1450000" RealAddress="0FF3CC64"/>
                   <ShowAsSigned>1</ShowAsSigned>
                   <VariableType>4 Bytes</VariableType>
                   <Address>WorldChrBase</Address>
@@ -930,7 +931,7 @@ debugProcess(2)
                 <CheatEntry>
                   <ID>1337038095</ID>
                   <Description>"WeaponSlot2"</Description>
-                  <LastState Value="212000" RealAddress="0F920578"/>
+                  <LastState Value="201000" RealAddress="0FF3CC68"/>
                   <ShowAsSigned>1</ShowAsSigned>
                   <VariableType>4 Bytes</VariableType>
                   <Address>WorldChrBase</Address>
@@ -943,7 +944,7 @@ debugProcess(2)
                 <CheatEntry>
                   <ID>1337038094</ID>
                   <Description>"WeaponSlot3"</Description>
-                  <LastState Value="900000" RealAddress="0F92057C"/>
+                  <LastState Value="900000" RealAddress="0FF3CC6C"/>
                   <ShowAsSigned>1</ShowAsSigned>
                   <VariableType>4 Bytes</VariableType>
                   <Address>WorldChrBase</Address>
@@ -956,7 +957,7 @@ debugProcess(2)
                 <CheatEntry>
                   <ID>1337038093</ID>
                   <Description>"WeaponSlot4"</Description>
-                  <LastState Value="900000" RealAddress="0F920580"/>
+                  <LastState Value="900000" RealAddress="0FF3CC70"/>
                   <ShowAsSigned>1</ShowAsSigned>
                   <VariableType>4 Bytes</VariableType>
                   <Address>WorldChrBase</Address>
@@ -969,7 +970,7 @@ debugProcess(2)
                 <CheatEntry>
                   <ID>1337038097</ID>
                   <Description>"ArrowSlot1"</Description>
-                  <LastState Value="-1" RealAddress="0F920584"/>
+                  <LastState Value="-1" RealAddress="0FF3CC74"/>
                   <ShowAsSigned>1</ShowAsSigned>
                   <VariableType>4 Bytes</VariableType>
                   <Address>WorldChrBase</Address>
@@ -982,7 +983,7 @@ debugProcess(2)
                 <CheatEntry>
                   <ID>1337038099</ID>
                   <Description>"BoltSlot1"</Description>
-                  <LastState Value="-1" RealAddress="0F920588"/>
+                  <LastState Value="-1" RealAddress="0FF3CC78"/>
                   <ShowAsSigned>1</ShowAsSigned>
                   <VariableType>4 Bytes</VariableType>
                   <Address>WorldChrBase</Address>
@@ -995,7 +996,7 @@ debugProcess(2)
                 <CheatEntry>
                   <ID>1337038096</ID>
                   <Description>"ArrowSlot2"</Description>
-                  <LastState Value="-1" RealAddress="0F92058C"/>
+                  <LastState Value="-1" RealAddress="0FF3CC7C"/>
                   <ShowAsSigned>1</ShowAsSigned>
                   <VariableType>4 Bytes</VariableType>
                   <Address>WorldChrBase</Address>
@@ -1008,7 +1009,7 @@ debugProcess(2)
                 <CheatEntry>
                   <ID>1337038098</ID>
                   <Description>"BoltSlot2"</Description>
-                  <LastState Value="-1" RealAddress="0F920590"/>
+                  <LastState Value="-1" RealAddress="0FF3CC80"/>
                   <ShowAsSigned>1</ShowAsSigned>
                   <VariableType>4 Bytes</VariableType>
                   <Address>WorldChrBase</Address>
@@ -1021,7 +1022,7 @@ debugProcess(2)
                 <CheatEntry>
                   <ID>1337038092</ID>
                   <Description>"Helmet"</Description>
-                  <LastState Value="210000" RealAddress="0F920594"/>
+                  <LastState Value="210000" RealAddress="0FF3CC84"/>
                   <ShowAsSigned>1</ShowAsSigned>
                   <VariableType>4 Bytes</VariableType>
                   <Address>WorldChrBase</Address>
@@ -1034,7 +1035,7 @@ debugProcess(2)
                 <CheatEntry>
                   <ID>1337038084</ID>
                   <Description>"Chest"</Description>
-                  <LastState Value="211000" RealAddress="0F920598"/>
+                  <LastState Value="211000" RealAddress="0FF3CC88"/>
                   <ShowAsSigned>1</ShowAsSigned>
                   <VariableType>4 Bytes</VariableType>
                   <Address>WorldChrBase</Address>
@@ -1047,7 +1048,7 @@ debugProcess(2)
                 <CheatEntry>
                   <ID>1337038083</ID>
                   <Description>"Gauntlets"</Description>
-                  <LastState Value="212000" RealAddress="0F92059C"/>
+                  <LastState Value="212000" RealAddress="0FF3CC8C"/>
                   <ShowAsSigned>1</ShowAsSigned>
                   <VariableType>4 Bytes</VariableType>
                   <Address>WorldChrBase</Address>
@@ -1060,7 +1061,7 @@ debugProcess(2)
                 <CheatEntry>
                   <ID>1337038082</ID>
                   <Description>"Leggins"</Description>
-                  <LastState Value="213000" RealAddress="0F9205A0"/>
+                  <LastState Value="213000" RealAddress="0FF3CC90"/>
                   <ShowAsSigned>1</ShowAsSigned>
                   <VariableType>4 Bytes</VariableType>
                   <Address>WorldChrBase</Address>
@@ -1073,7 +1074,7 @@ debugProcess(2)
                 <CheatEntry>
                   <ID>1337038090</ID>
                   <Description>"RingSlot1"</Description>
-                  <LastState Value="-1" RealAddress="0F9205A8"/>
+                  <LastState Value="-1" RealAddress="0FF3CC98"/>
                   <ShowAsSigned>1</ShowAsSigned>
                   <VariableType>4 Bytes</VariableType>
                   <Address>WorldChrBase</Address>
@@ -1086,7 +1087,7 @@ debugProcess(2)
                 <CheatEntry>
                   <ID>1337038091</ID>
                   <Description>"RingSlot1"</Description>
-                  <LastState Value="-1" RealAddress="0F9205AC"/>
+                  <LastState Value="-1" RealAddress="0FF3CC9C"/>
                   <ShowAsSigned>1</ShowAsSigned>
                   <VariableType>4 Bytes</VariableType>
                   <Address>WorldChrBase</Address>
@@ -1099,7 +1100,7 @@ debugProcess(2)
                 <CheatEntry>
                   <ID>1337038085</ID>
                   <Description>"GoodsSlot1"</Description>
-                  <LastState Value="-1" RealAddress="0F9205B0"/>
+                  <LastState Value="103" RealAddress="0FF3CCA0"/>
                   <ShowAsSigned>1</ShowAsSigned>
                   <VariableType>4 Bytes</VariableType>
                   <Address>WorldChrBase</Address>
@@ -1112,7 +1113,7 @@ debugProcess(2)
                 <CheatEntry>
                   <ID>1337038086</ID>
                   <Description>"GoodsSlot2"</Description>
-                  <LastState Value="-1" RealAddress="0F9205B4"/>
+                  <LastState Value="-1" RealAddress="0FF3CCA4"/>
                   <ShowAsSigned>1</ShowAsSigned>
                   <VariableType>4 Bytes</VariableType>
                   <Address>WorldChrBase</Address>
@@ -1125,7 +1126,7 @@ debugProcess(2)
                 <CheatEntry>
                   <ID>1337038089</ID>
                   <Description>"GoodsSlot3"</Description>
-                  <LastState Value="-1" RealAddress="0F9205B8"/>
+                  <LastState Value="-1" RealAddress="0FF3CCA8"/>
                   <ShowAsSigned>1</ShowAsSigned>
                   <VariableType>4 Bytes</VariableType>
                   <Address>WorldChrBase</Address>
@@ -1138,7 +1139,7 @@ debugProcess(2)
                 <CheatEntry>
                   <ID>1337038088</ID>
                   <Description>"GoodsSlot4"</Description>
-                  <LastState Value="-1" RealAddress="0F9205BC"/>
+                  <LastState Value="-1" RealAddress="0FF3CCAC"/>
                   <ShowAsSigned>1</ShowAsSigned>
                   <VariableType>4 Bytes</VariableType>
                   <Address>WorldChrBase</Address>
@@ -1151,13 +1152,48 @@ debugProcess(2)
                 <CheatEntry>
                   <ID>1337038087</ID>
                   <Description>"GoodsSlot5"</Description>
-                  <LastState Value="-1" RealAddress="0F9205C0"/>
+                  <LastState Value="-1" RealAddress="0FF3CCB0"/>
                   <ShowAsSigned>1</ShowAsSigned>
                   <VariableType>4 Bytes</VariableType>
                   <Address>WorldChrBase</Address>
                   <Offsets>
                     <Offset>70</Offset>
                     <Offset>838</Offset>
+                    <Offset>68</Offset>
+                  </Offsets>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>1337046698</ID>
+              <Description>"FD4PadManager - PlayerInput"</Description>
+              <Options moHideChildren="1"/>
+              <LastState Value="" RealAddress="00000000"/>
+              <GroupHeader>1</GroupHeader>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>1337046696</ID>
+                  <Description>"X INPUT"</Description>
+                  <LastState Value="0" RealAddress="0FF3C204"/>
+                  <VariableType>Float</VariableType>
+                  <Address>WorldChrBase</Address>
+                  <Offsets>
+                    <Offset>264</Offset>
+                    <Offset>88</Offset>
+                    <Offset>48</Offset>
+                    <Offset>68</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>1337046697</ID>
+                  <Description>"Y INPUT"</Description>
+                  <LastState Value="0" RealAddress="0FF3C254"/>
+                  <VariableType>Float</VariableType>
+                  <Address>WorldChrBase</Address>
+                  <Offsets>
+                    <Offset>2B4</Offset>
+                    <Offset>88</Offset>
+                    <Offset>48</Offset>
                     <Offset>68</Offset>
                   </Offsets>
                 </CheatEntry>
@@ -1194,7 +1230,7 @@ unregistersymbol(DisableCamFollow)
                 <CheatEntry>
                   <ID>86620</ID>
                   <Description>"CameraAngX"</Description>
-                  <LastState Value="0.4628148079" RealAddress="0E626070"/>
+                  <LastState Value="0.7205296159" RealAddress="0E620070"/>
                   <VariableType>Float</VariableType>
                   <Address>CamManBase</Address>
                   <Offsets>
@@ -1205,7 +1241,7 @@ unregistersymbol(DisableCamFollow)
                 <CheatEntry>
                   <ID>86621</ID>
                   <Description>"CameraAngZ"</Description>
-                  <LastState Value="0.2287256718" RealAddress="0E626074"/>
+                  <LastState Value="-0.5450225472" RealAddress="0E620074"/>
                   <VariableType>Float</VariableType>
                   <Address>CamManBase</Address>
                   <Offsets>
@@ -1216,7 +1252,7 @@ unregistersymbol(DisableCamFollow)
                 <CheatEntry>
                   <ID>86619</ID>
                   <Description>"CameraAngY"</Description>
-                  <LastState Value="-0.8564385772" RealAddress="0E626078"/>
+                  <LastState Value="-0.4287044704" RealAddress="0E620078"/>
                   <VariableType>Float</VariableType>
                   <Address>CamManBase</Address>
                   <Offsets>
@@ -1227,7 +1263,7 @@ unregistersymbol(DisableCamFollow)
                 <CheatEntry>
                   <ID>86596</ID>
                   <Description>"CameraX"</Description>
-                  <LastState Value="503.6348572" RealAddress="0E626080"/>
+                  <LastState Value="463.3885803" RealAddress="0E620080"/>
                   <VariableType>Float</VariableType>
                   <Address>CamManBase</Address>
                   <Offsets>
@@ -1238,7 +1274,7 @@ unregistersymbol(DisableCamFollow)
                 <CheatEntry>
                   <ID>86599</ID>
                   <Description>"CameraZ"</Description>
-                  <LastState Value="135.5051575" RealAddress="0E626084"/>
+                  <LastState Value="137.4000854" RealAddress="0E620084"/>
                   <VariableType>Float</VariableType>
                   <Address>CamManBase</Address>
                   <Offsets>
@@ -1249,7 +1285,7 @@ unregistersymbol(DisableCamFollow)
                 <CheatEntry>
                   <ID>86598</ID>
                   <Description>"CameraY"</Description>
-                  <LastState Value="177.8461914" RealAddress="0E626088"/>
+                  <LastState Value="294.3752747" RealAddress="0E620088"/>
                   <VariableType>Float</VariableType>
                   <Address>CamManBase</Address>
                   <Offsets>
@@ -1260,16 +1296,16 @@ unregistersymbol(DisableCamFollow)
               </CheatEntries>
             </CheatEntry>
             <CheatEntry>
-              <ID>1337046312</ID>
-              <Description>"CharacterParam"</Description>
+              <ID>91704</ID>
+              <Description>"ChrParam"</Description>
               <Options moHideChildren="1"/>
               <LastState Value="" RealAddress="00000000"/>
               <GroupHeader>1</GroupHeader>
               <CheatEntries>
                 <CheatEntry>
-                  <ID>1337046293</ID>
-                  <Description>"InGameTime"</Description>
-                  <LastState Value="10760416" RealAddress="0E647824"/>
+                  <ID>89602</ID>
+                  <Description>"Play Time"</Description>
+                  <LastState Value="26711488" RealAddress="0E641824"/>
                   <VariableType>4 Bytes</VariableType>
                   <Address>ChrClassBase</Address>
                   <Offsets>
@@ -1277,9 +1313,9 @@ unregistersymbol(DisableCamFollow)
                   </Offsets>
                 </CheatEntry>
                 <CheatEntry>
-                  <ID>1337046301</ID>
+                  <ID>91706</ID>
                   <Description>"LanCutPoint"</Description>
-                  <LastState Value="4.183332443" RealAddress="0E64782C"/>
+                  <LastState Value="8.283378601" RealAddress="0E64182C"/>
                   <VariableType>Float</VariableType>
                   <Address>ChrClassBase</Address>
                   <Offsets>
@@ -1287,34 +1323,402 @@ unregistersymbol(DisableCamFollow)
                   </Offsets>
                 </CheatEntry>
                 <CheatEntry>
-                  <ID>1337046292</ID>
-                  <Description>"PlayerNo"</Description>
-                  <LastState Value="0" RealAddress="0E6484A0"/>
-                  <VariableType>4 Bytes</VariableType>
+                  <ID>91707</ID>
+                  <Description>"ClearCount"</Description>
+                  <LastState Value="0" RealAddress="0E6417F8"/>
+                  <VariableType>Byte</VariableType>
                   <Address>ChrClassBase</Address>
                   <Offsets>
-                    <Offset>10</Offset>
-                    <Offset>10</Offset>
+                    <Offset>78</Offset>
                   </Offsets>
                 </CheatEntry>
                 <CheatEntry>
-                  <ID>86625</ID>
-                  <Description>"ChrID?"</Description>
-                  <LastState Value="1" RealAddress="0F91ED8C"/>
-                  <Color>000000</Color>
-                  <VariableType>Float</VariableType>
-                  <Address>WorldChrBase</Address>
+                  <ID>91752</ID>
+                  <Description>"ClearState[none,good,bad]"</Description>
+                  <LastState Value="0" RealAddress="0E6417FC"/>
+                  <VariableType>Byte</VariableType>
+                  <Address>ChrClassBase</Address>
                   <Offsets>
-                    <Offset>11C</Offset>
-                    <Offset>68</Offset>
+                    <Offset>7C</Offset>
                   </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>91753</ID>
+                  <Description>"Full Recover"</Description>
+                  <LastState Value="0" RealAddress="0E641800"/>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>ChrClassBase</Address>
+                  <Offsets>
+                    <Offset>80</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>91754</ID>
+                  <Description>"TrueDeath"</Description>
+                  <LastState Value="0" RealAddress="0E641810"/>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>ChrClassBase</Address>
+                  <Offsets>
+                    <Offset>90</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>91755</ID>
+                  <Description>"ItemComplete"</Description>
+                  <LastState Value="0" RealAddress="0E641804"/>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>ChrClassBase</Address>
+                  <Offsets>
+                    <Offset>84</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>91756</ID>
+                  <Description>"RescueWhite"</Description>
+                  <LastState Value="0" RealAddress="0E641808"/>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>ChrClassBase</Address>
+                  <Offsets>
+                    <Offset>88</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>91757</ID>
+                  <Description>"KillBlack (Red Phantoms)"</Description>
+                  <LastState Value="0" RealAddress="0E641808"/>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>ChrClassBase</Address>
+                  <Offsets>
+                    <Offset>88</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>91758</ID>
+                  <Description>"True Death Num"</Description>
+                  <LastState Value="0" RealAddress="0E641814"/>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>ChrClassBase</Address>
+                  <Offsets>
+                    <Offset>94</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>91759</ID>
+                  <Description>"Death Num"</Description>
+                  <LastState Value="11" RealAddress="0E641818"/>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>ChrClassBase</Address>
+                  <Offsets>
+                    <Offset>98</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>91760</ID>
+                  <Description>"Resurrection counter [0]"</Description>
+                  <LastState Value="0" RealAddress="0E641844"/>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>ChrClassBase</Address>
+                  <Offsets>
+                    <Offset>C4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>91761</ID>
+                  <Description>"Resurrection counter [1]"</Description>
+                  <LastState Value="0" RealAddress="0E641848"/>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>ChrClassBase</Address>
+                  <Offsets>
+                    <Offset>C8</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>91762</ID>
+                  <Description>"Resurrection counter [2]"</Description>
+                  <LastState Value="0" RealAddress="0E64184C"/>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>ChrClassBase</Address>
+                  <Offsets>
+                    <Offset>CC</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>91427</ID>
+                  <Description>"Player Param"</Description>
+                  <Options moHideChildren="1"/>
+                  <LastState Value="" RealAddress="00000000"/>
+                  <GroupHeader>1</GroupHeader>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>91430</ID>
+                      <Description>"PlayerNo"</Description>
+                      <LastState Value="0" RealAddress="0E6424A0"/>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>ChrClassBase</Address>
+                      <Offsets>
+                        <Offset>10</Offset>
+                        <Offset>10</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>91445</ID>
+                      <Description>"ArcheType (Class)"</Description>
+                      <LastState Value="0" RealAddress="0E64255E"/>
+                      <VariableType>Byte</VariableType>
+                      <Address>ChrClassBase</Address>
+                      <Offsets>
+                        <Offset>CE</Offset>
+                        <Offset>10</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>91447</ID>
+                      <Description>"Gift"</Description>
+                      <LastState Value="0" RealAddress="0E642560"/>
+                      <VariableType>Byte</VariableType>
+                      <Address>ChrClassBase</Address>
+                      <Offsets>
+                        <Offset>D0</Offset>
+                        <Offset>10</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>91452</ID>
+                      <Description>"Covenant"</Description>
+                      <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:None
+1:Way_Of_White
+2:Princess's_Guard
+3:Warrior_Of_Sunlight
+4:Darkwraith
+5:Path_Of_The_Dragon
+6:Gravelord_Servant
+7:Forest_Hunter
+8:Darkmoon_Blade
+9:Chaos_Servant
+</DropDownList>
+                      <LastState Value="0" RealAddress="0E6425A3"/>
+                      <VariableType>Byte</VariableType>
+                      <Address>ChrClassBase</Address>
+                      <Offsets>
+                        <Offset>113</Offset>
+                        <Offset>10</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>91453</ID>
+                      <Description>"FaceType"</Description>
+                      <LastState Value="0" RealAddress="0E6425A4"/>
+                      <VariableType>Byte</VariableType>
+                      <Address>ChrClassBase</Address>
+                      <Offsets>
+                        <Offset>114</Offset>
+                        <Offset>10</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>91455</ID>
+                      <Description>"HairType"</Description>
+                      <LastState Value="2" RealAddress="0E6424A5"/>
+                      <VariableType>Byte</VariableType>
+                      <Address>ChrClassBase</Address>
+                      <Offsets>
+                        <Offset>15</Offset>
+                        <Offset>10</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>91454</ID>
+                      <Description>"HairEyesColor"</Description>
+                      <LastState Value="0" RealAddress="0E6425A6"/>
+                      <VariableType>Byte</VariableType>
+                      <Address>ChrClassBase</Address>
+                      <Offsets>
+                        <Offset>116</Offset>
+                        <Offset>10</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>91459</ID>
+                      <Description>"CurseLv"</Description>
+                      <LastState Value="0" RealAddress="0E6425A7"/>
+                      <VariableType>Byte</VariableType>
+                      <Address>ChrClassBase</Address>
+                      <Offsets>
+                        <Offset>117</Offset>
+                        <Offset>10</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>91458</ID>
+                      <Description>"InvadeType"</Description>
+                      <LastState Value="0" RealAddress="0E6425A8"/>
+                      <VariableType>Byte</VariableType>
+                      <Address>ChrClassBase</Address>
+                      <Offsets>
+                        <Offset>118</Offset>
+                        <Offset>10</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>91448</ID>
+                      <Description>"Poison Resist"</Description>
+                      <LastState Value="88" RealAddress="0E642590"/>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>ChrClassBase</Address>
+                      <Offsets>
+                        <Offset>100</Offset>
+                        <Offset>10</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>91449</ID>
+                      <Description>"Blood Resist"</Description>
+                      <LastState Value="108" RealAddress="0E642594"/>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>ChrClassBase</Address>
+                      <Offsets>
+                        <Offset>104</Offset>
+                        <Offset>10</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>91450</ID>
+                      <Description>"Disease Resist "</Description>
+                      <LastState Value="88" RealAddress="0E642598"/>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>ChrClassBase</Address>
+                      <Offsets>
+                        <Offset>108</Offset>
+                        <Offset>10</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>91451</ID>
+                      <Description>"Curse Resist"</Description>
+                      <LastState Value="30" RealAddress="0E64259C"/>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>ChrClassBase</Address>
+                      <Offsets>
+                        <Offset>10C</Offset>
+                        <Offset>10</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>91444</ID>
+                      <Description>"ShopLv"</Description>
+                      <LastState Value="0" RealAddress="0E64255C"/>
+                      <VariableType>Byte</VariableType>
+                      <Address>ChrClassBase</Address>
+                      <Offsets>
+                        <Offset>CC</Offset>
+                        <Offset>10</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>91440</ID>
+                      <Description>"Total Get Soul"</Description>
+                      <LastState Value="3601" RealAddress="0E642528"/>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>ChrClassBase</Address>
+                      <Offsets>
+                        <Offset>98</Offset>
+                        <Offset>10</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>91443</ID>
+                      <Description>"Gender"</Description>
+                      <LastState Value="1" RealAddress="0E64255A"/>
+                      <VariableType>Byte</VariableType>
+                      <Address>ChrClassBase</Address>
+                      <Offsets>
+                        <Offset>CA</Offset>
+                        <Offset>10</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>91763</ID>
+                  <Description>"Other"</Description>
+                  <Options moHideChildren="1"/>
+                  <LastState Value="" RealAddress="00000000"/>
+                  <GroupHeader>1</GroupHeader>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>91764</ID>
+                      <Description>"MultiPlay Count"</Description>
+                      <LastState Value="29" RealAddress="0E642564"/>
+                      <VariableType>Byte</VariableType>
+                      <Address>ChrClassBase</Address>
+                      <Offsets>
+                        <Offset>D4</Offset>
+                        <Offset>10</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>91765</ID>
+                      <Description>"CoopPlaySuccess Count"</Description>
+                      <LastState Value="0" RealAddress="0E642568"/>
+                      <VariableType>Byte</VariableType>
+                      <Address>ChrClassBase</Address>
+                      <Offsets>
+                        <Offset>D8</Offset>
+                        <Offset>10</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>91766</ID>
+                      <Description>"ThiefInvadePlaySuccess Count"</Description>
+                      <LastState Value="0" RealAddress="0E64256C"/>
+                      <VariableType>Byte</VariableType>
+                      <Address>ChrClassBase</Address>
+                      <Offsets>
+                        <Offset>DC</Offset>
+                        <Offset>10</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>91767</ID>
+                      <Description>"Player Rank S"</Description>
+                      <LastState Value="0" RealAddress="0E642570"/>
+                      <VariableType>Byte</VariableType>
+                      <Address>ChrClassBase</Address>
+                      <Offsets>
+                        <Offset>E0</Offset>
+                        <Offset>10</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>91768</ID>
+                      <Description>"Player Rank A"</Description>
+                      <LastState Value="0" RealAddress="0E642574"/>
+                      <VariableType>Byte</VariableType>
+                      <Address>ChrClassBase</Address>
+                      <Offsets>
+                        <Offset>E4</Offset>
+                        <Offset>10</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>91769</ID>
+                      <Description>"Player Rank C"</Description>
+                      <LastState Value="0" RealAddress="0E642578"/>
+                      <VariableType>Byte</VariableType>
+                      <Address>ChrClassBase</Address>
+                      <Offsets>
+                        <Offset>E8</Offset>
+                        <Offset>10</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                  </CheatEntries>
                 </CheatEntry>
               </CheatEntries>
             </CheatEntry>
             <CheatEntry>
               <ID>86639</ID>
               <Description>"Handle ID"</Description>
-              <LastState Value="10044000" RealAddress="0F91EC78"/>
+              <LastState Value="10044000" RealAddress="0FF3B368"/>
               <ShowAsHex>1</ShowAsHex>
               <Color>000000</Color>
               <VariableType>4 Bytes</VariableType>
@@ -1500,7 +1904,7 @@ c5390:One King / Ja_yearl_demon
 c5400:Crashes / Boss_Izalis
 c5401:Bed of Chaos Bug
 </DropDownList>
-              <LastState RealAddress="0F91ECD8"/>
+              <LastState RealAddress="0FF3B3C8"/>
               <Color>000000</Color>
               <VariableType>String</VariableType>
               <Length>5</Length>
@@ -1516,7 +1920,7 @@ c5401:Bed of Chaos Bug
             <CheatEntry>
               <ID>1337038105</ID>
               <Description>"ChrType"</Description>
-              <LastState Value="8" RealAddress="0F91ED24"/>
+              <LastState Value="0" RealAddress="0FF3B414"/>
               <Color>000000</Color>
               <VariableType>4 Bytes</VariableType>
               <Address>WorldChrBase</Address>
@@ -1528,7 +1932,7 @@ c5401:Bed of Chaos Bug
             <CheatEntry>
               <ID>1337038103</ID>
               <Description>"TeamType"</Description>
-              <LastState Value="4" RealAddress="0F91ED28"/>
+              <LastState Value="1" RealAddress="0FF3B418"/>
               <Color>000000</Color>
               <VariableType>4 Bytes</VariableType>
               <Address>WorldChrBase</Address>
@@ -1540,7 +1944,7 @@ c5401:Bed of Chaos Bug
             <CheatEntry>
               <ID>1337038100</ID>
               <Description>"Health"</Description>
-              <LastState Value="594" RealAddress="0F91F048"/>
+              <LastState Value="594" RealAddress="0FF3B738"/>
               <Color>000000</Color>
               <VariableType>4 Bytes</VariableType>
               <Address>WorldChrBase</Address>
@@ -1552,7 +1956,7 @@ c5401:Bed of Chaos Bug
             <CheatEntry>
               <ID>86638</ID>
               <Description>"MaxHealth"</Description>
-              <LastState Value="594" RealAddress="0F91F04C"/>
+              <LastState Value="594" RealAddress="0FF3B73C"/>
               <Color>000000</Color>
               <VariableType>4 Bytes</VariableType>
               <Address>WorldChrBase</Address>
@@ -1564,7 +1968,7 @@ c5401:Bed of Chaos Bug
             <CheatEntry>
               <ID>1337046382</ID>
               <Description>"Mana"</Description>
-              <LastState Value="49" RealAddress="0F91F050"/>
+              <LastState Value="49" RealAddress="0FF3B740"/>
               <Color>000000</Color>
               <VariableType>4 Bytes</VariableType>
               <Address>WorldChrBase</Address>
@@ -1576,7 +1980,7 @@ c5401:Bed of Chaos Bug
             <CheatEntry>
               <ID>1337046383</ID>
               <Description>"MaxMana"</Description>
-              <LastState Value="49" RealAddress="0F91F054"/>
+              <LastState Value="49" RealAddress="0FF3B744"/>
               <Color>000000</Color>
               <VariableType>4 Bytes</VariableType>
               <Address>WorldChrBase</Address>
@@ -1588,7 +1992,7 @@ c5401:Bed of Chaos Bug
             <CheatEntry>
               <ID>1337046381</ID>
               <Description>"Stamina"</Description>
-              <LastState Value="95" RealAddress="0F91F058"/>
+              <LastState Value="95" RealAddress="0FF3B748"/>
               <Color>000000</Color>
               <VariableType>4 Bytes</VariableType>
               <Address>WorldChrBase</Address>
@@ -1600,7 +2004,7 @@ c5401:Bed of Chaos Bug
             <CheatEntry>
               <ID>1337046384</ID>
               <Description>"MaxStamina"</Description>
-              <LastState Value="95" RealAddress="0F91F05C"/>
+              <LastState Value="95" RealAddress="0FF3B74C"/>
               <Color>000000</Color>
               <VariableType>4 Bytes</VariableType>
               <Address>WorldChrBase</Address>
@@ -1612,7 +2016,7 @@ c5401:Bed of Chaos Bug
             <CheatEntry>
               <ID>1337038148</ID>
               <Description>"DebugPlaySpeed (AnimSpeed)"</Description>
-              <LastState Value="1" RealAddress="0F99F8D8"/>
+              <LastState Value="1" RealAddress="0FFC7258"/>
               <VariableType>Float</VariableType>
               <Address>WorldChrBase</Address>
               <Offsets>
@@ -2292,172 +2696,6 @@ c5401:Bed of Chaos Bug
           </CheatEntries>
         </CheatEntry>
         <CheatEntry>
-          <ID>1337037769</ID>
-          <Description>"Animations"</Description>
-          <Options moHideChildren="1"/>
-          <LastState Value="" RealAddress="00000000"/>
-          <GroupHeader>1</GroupHeader>
-          <CheatEntries>
-            <CheatEntry>
-              <ID>1337037836</ID>
-              <Description>"Autowalk"</Description>
-              <LastState/>
-              <VariableType>Auto Assembler Script</VariableType>
-              <AssemblerScript>[ENABLE]
-
-aobscanmodule(Autowalk,DarkSoulsRemastered.exe,0F 29 41 10 0F 29 41 60)
-registersymbol(Autowalk)
-
-Autowalk:
-  db 90 90 90 90 0F 29 41 60
-
-[DISABLE]
-
-Autowalk:
-  db 0F 29 41 10 0F 29 41 60
-
-unregistersymbol(Autowalk)
-
-</AssemblerScript>
-            </CheatEntry>
-            <CheatEntry>
-              <ID>1337037770</ID>
-              <Description>"Movement A"</Description>
-              <LastState Value="0" RealAddress="0F91F8C0"/>
-              <ShowAsSigned>1</ShowAsSigned>
-              <VariableType>Float</VariableType>
-              <Address>WorldChrBase</Address>
-              <Offsets>
-                <Offset>10</Offset>
-                <Offset>88</Offset>
-                <Offset>48</Offset>
-                <Offset>68</Offset>
-              </Offsets>
-            </CheatEntry>
-            <CheatEntry>
-              <ID>1337037835</ID>
-              <Description>"Movement B"</Description>
-              <LastState Value="0" RealAddress="0F91F8C8"/>
-              <ShowAsSigned>1</ShowAsSigned>
-              <VariableType>Float</VariableType>
-              <Address>WorldChrBase</Address>
-              <Offsets>
-                <Offset>18</Offset>
-                <Offset>88</Offset>
-                <Offset>48</Offset>
-                <Offset>68</Offset>
-              </Offsets>
-            </CheatEntry>
-            <CheatEntry>
-              <ID>1337046327</ID>
-              <Description>"Current Animation"</Description>
-              <LastState Value="-1" RealAddress="0F920060"/>
-              <ShowAsSigned>1</ShowAsSigned>
-              <VariableType>4 Bytes</VariableType>
-              <Address>WorldChrBase</Address>
-              <Offsets>
-                <Offset>80</Offset>
-                <Offset>48</Offset>
-                <Offset>48</Offset>
-                <Offset>68</Offset>
-              </Offsets>
-            </CheatEntry>
-            <CheatEntry>
-              <ID>1337037837</ID>
-              <Description>"StayAnimID UpperBody"</Description>
-              <LastState Value="-1" RealAddress="0F9A0930"/>
-              <ShowAsSigned>1</ShowAsSigned>
-              <VariableType>4 Bytes</VariableType>
-              <Address>WorldChrBase</Address>
-              <Offsets>
-                <Offset>690</Offset>
-                <Offset>5D0</Offset>
-                <Offset>30</Offset>
-                <Offset>68</Offset>
-              </Offsets>
-            </CheatEntry>
-            <CheatEntry>
-              <ID>1337037890</ID>
-              <Description>"StayAnimID LowerBody"</Description>
-              <LastState Value="-1" RealAddress="0F9A1650"/>
-              <ShowAsSigned>1</ShowAsSigned>
-              <VariableType>4 Bytes</VariableType>
-              <Address>WorldChrBase</Address>
-              <Offsets>
-                <Offset>13B0</Offset>
-                <Offset>5D0</Offset>
-                <Offset>30</Offset>
-                <Offset>68</Offset>
-              </Offsets>
-            </CheatEntry>
-            <CheatEntry>
-              <ID>1337046334</ID>
-              <Description>"DamageLevel"</Description>
-              <Options moHideChildren="1"/>
-              <LastState Value="" RealAddress="00000000"/>
-              <GroupHeader>1</GroupHeader>
-              <CheatEntries>
-                <CheatEntry>
-                  <ID>1337037833</ID>
-                  <Description>"DamageLevel"</Description>
-                  <LastState Value="0" RealAddress="0F9201CC"/>
-                  <ShowAsSigned>0</ShowAsSigned>
-                  <VariableType>4 Bytes</VariableType>
-                  <Address>WorldChrBase</Address>
-                  <Offsets>
-                    <Offset>154</Offset>
-                    <Offset>30</Offset>
-                    <Offset>18</Offset>
-                    <Offset>68</Offset>
-                  </Offsets>
-                </CheatEntry>
-                <CheatEntry>
-                  <ID>1337046335</ID>
-                  <Description>"SetGuardLevel"</Description>
-                  <LastState Value="0" RealAddress="0F9201DC"/>
-                  <ShowAsSigned>0</ShowAsSigned>
-                  <VariableType>4 Bytes</VariableType>
-                  <Address>WorldChrBase</Address>
-                  <Offsets>
-                    <Offset>164</Offset>
-                    <Offset>30</Offset>
-                    <Offset>18</Offset>
-                    <Offset>68</Offset>
-                  </Offsets>
-                </CheatEntry>
-                <CheatEntry>
-                  <ID>1337046333</ID>
-                  <Description>"DamageDir"</Description>
-                  <LastState Value="0" RealAddress="0F9201D4"/>
-                  <ShowAsSigned>0</ShowAsSigned>
-                  <VariableType>4 Bytes</VariableType>
-                  <Address>WorldChrBase</Address>
-                  <Offsets>
-                    <Offset>15C</Offset>
-                    <Offset>30</Offset>
-                    <Offset>18</Offset>
-                    <Offset>68</Offset>
-                  </Offsets>
-                </CheatEntry>
-                <CheatEntry>
-                  <ID>1337046336</ID>
-                  <Description>"isHeadShoot?"</Description>
-                  <LastState Value="0" RealAddress="0F9201B8"/>
-                  <ShowAsSigned>0</ShowAsSigned>
-                  <VariableType>4 Bytes</VariableType>
-                  <Address>WorldChrBase</Address>
-                  <Offsets>
-                    <Offset>140</Offset>
-                    <Offset>30</Offset>
-                    <Offset>18</Offset>
-                    <Offset>68</Offset>
-                  </Offsets>
-                </CheatEntry>
-              </CheatEntries>
-            </CheatEntry>
-          </CheatEntries>
-        </CheatEntry>
-        <CheatEntry>
           <ID>1337037794</ID>
           <Description>"FlagData"</Description>
           <Options moHideChildren="1"/>
@@ -2474,7 +2712,7 @@ unregistersymbol(Autowalk)
                 <CheatEntry>
                   <ID>1337046314</ID>
                   <Description>"EnableChrAsm"</Description>
-                  <LastState Value="1" RealAddress="0F91F4A0"/>
+                  <LastState Value="1" RealAddress="0FF3BB90"/>
                   <Color>000000</Color>
                   <VariableType>Byte</VariableType>
                   <Address>WorldChrBase</Address>
@@ -2484,9 +2722,24 @@ unregistersymbol(Autowalk)
                   </Offsets>
                 </CheatEntry>
                 <CheatEntry>
+                  <ID>1337046678</ID>
+                  <Description>"DisableMapHit"</Description>
+                  <LastState Value="0" RealAddress="0FF3C454"/>
+                  <VariableType>Binary</VariableType>
+                  <BitStart>3</BitStart>
+                  <BitLength>1</BitLength>
+                  <ShowAsBinary>0</ShowAsBinary>
+                  <Address>WorldChrBase</Address>
+                  <Offsets>
+                    <Offset>104</Offset>
+                    <Offset>48</Offset>
+                    <Offset>68</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
                   <ID>90151</ID>
                   <Description>"NoGravity"</Description>
-                  <LastState Value="0" RealAddress="0F91EEF5"/>
+                  <LastState Value="0" RealAddress="0FF3B5E5"/>
                   <Color>000000</Color>
                   <VariableType>Binary</VariableType>
                   <BitStart>6</BitStart>
@@ -2501,7 +2754,7 @@ unregistersymbol(Autowalk)
                 <CheatEntry>
                   <ID>1337038109</ID>
                   <Description>"ToggleDraw"</Description>
-                  <LastState Value="1" RealAddress="0F91EEF6"/>
+                  <LastState Value="1" RealAddress="0FF3B5E6"/>
                   <Color>000000</Color>
                   <VariableType>Binary</VariableType>
                   <BitStart>7</BitStart>
@@ -2516,7 +2769,7 @@ unregistersymbol(Autowalk)
                 <CheatEntry>
                   <ID>90152</ID>
                   <Description>"NoDead"</Description>
-                  <LastState Value="0" RealAddress="0F91F184"/>
+                  <LastState Value="0" RealAddress="0FF3B874"/>
                   <Color>000000</Color>
                   <VariableType>Binary</VariableType>
                   <BitStart>5</BitStart>
@@ -2531,7 +2784,7 @@ unregistersymbol(Autowalk)
                 <CheatEntry>
                   <ID>90165</ID>
                   <Description>"NoDamage"</Description>
-                  <LastState Value="0" RealAddress="0F91F184"/>
+                  <LastState Value="0" RealAddress="0FF3B874"/>
                   <Color>000000</Color>
                   <VariableType>Binary</VariableType>
                   <BitStart>0</BitStart>
@@ -2546,7 +2799,7 @@ unregistersymbol(Autowalk)
                 <CheatEntry>
                   <ID>90166</ID>
                   <Description>"NoHit"</Description>
-                  <LastState Value="0" RealAddress="0F91F184"/>
+                  <LastState Value="0" RealAddress="0FF3B874"/>
                   <Color>000000</Color>
                   <VariableType>Binary</VariableType>
                   <BitStart>7</BitStart>
@@ -2561,7 +2814,7 @@ unregistersymbol(Autowalk)
                 <CheatEntry>
                   <ID>90164</ID>
                   <Description>"NoStaminaConsumption"</Description>
-                  <LastState Value="0" RealAddress="0F91F185"/>
+                  <LastState Value="0" RealAddress="0FF3B875"/>
                   <Color>000000</Color>
                   <VariableType>Binary</VariableType>
                   <BitStart>2</BitStart>
@@ -2576,7 +2829,7 @@ unregistersymbol(Autowalk)
                 <CheatEntry>
                   <ID>90167</ID>
                   <Description>"NoAttack"</Description>
-                  <LastState Value="0" RealAddress="0F91F185"/>
+                  <LastState Value="0" RealAddress="0FF3B875"/>
                   <Color>000000</Color>
                   <VariableType>Binary</VariableType>
                   <BitStart>0</BitStart>
@@ -2591,7 +2844,7 @@ unregistersymbol(Autowalk)
                 <CheatEntry>
                   <ID>90168</ID>
                   <Description>"NoMove"</Description>
-                  <LastState Value="0" RealAddress="0F91F185"/>
+                  <LastState Value="0" RealAddress="0FF3B875"/>
                   <Color>000000</Color>
                   <VariableType>Binary</VariableType>
                   <BitStart>1</BitStart>
@@ -2606,7 +2859,7 @@ unregistersymbol(Autowalk)
                 <CheatEntry>
                   <ID>90163</ID>
                   <Description>"NoMpConsumption"</Description>
-                  <LastState Value="0" RealAddress="0F91F185"/>
+                  <LastState Value="0" RealAddress="0FF3B875"/>
                   <Color>000000</Color>
                   <VariableType>Binary</VariableType>
                   <BitStart>3</BitStart>
@@ -2621,7 +2874,7 @@ unregistersymbol(Autowalk)
                 <CheatEntry>
                   <ID>90170</ID>
                   <Description>"NoUpdate"</Description>
-                  <LastState Value="0" RealAddress="0F91F185"/>
+                  <LastState Value="0" RealAddress="0FF3B875"/>
                   <Color>000000</Color>
                   <VariableType>Binary</VariableType>
                   <BitStart>7</BitStart>
@@ -2636,7 +2889,7 @@ unregistersymbol(Autowalk)
                 <CheatEntry>
                   <ID>90169</ID>
                   <Description>"NoGoodsConsume"</Description>
-                  <LastState Value="0" RealAddress="0F91F187"/>
+                  <LastState Value="0" RealAddress="0FF3B877"/>
                   <Color>000000</Color>
                   <VariableType>Binary</VariableType>
                   <BitStart>0</BitStart>
@@ -2651,7 +2904,7 @@ unregistersymbol(Autowalk)
                 <CheatEntry>
                   <ID>1337038104</ID>
                   <Description>"Disable Event Backread State"</Description>
-                  <LastState Value="0" RealAddress="0F91EC98"/>
+                  <LastState Value="0" RealAddress="0FF3B388"/>
                   <Color>000000</Color>
                   <VariableType>Byte</VariableType>
                   <Address>WorldChrBase</Address>
@@ -2672,7 +2925,7 @@ unregistersymbol(Autowalk)
                 <CheatEntry>
                   <ID>1337037825</ID>
                   <Description>"Controller Ptr"</Description>
-                  <LastState Value="00000000" RealAddress="1DE65D88"/>
+                  <LastState Value="00000000" RealAddress="0FEFA0F8"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>4 Bytes</VariableType>
                   <Address>WorldChrDbgBase</Address>
@@ -2683,7 +2936,7 @@ unregistersymbol(Autowalk)
                 <CheatEntry>
                   <ID>1337037773</ID>
                   <Description>"Camera"</Description>
-                  <LastState Value="00000000" RealAddress="1DE65D90"/>
+                  <LastState Value="00000000" RealAddress="0FEFA100"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>4 Bytes</VariableType>
                   <Address>WorldChrDbgBase</Address>
@@ -2808,7 +3061,7 @@ unregistersymbol(Autowalk)
                 <CheatEntry>
                   <ID>40</ID>
                   <Description>"DeathCam"</Description>
-                  <LastState Value="0" RealAddress="1B641040"/>
+                  <LastState Value="0" RealAddress="0FEF7960"/>
                   <Color>000000</Color>
                   <VariableType>Byte</VariableType>
                   <Address>WorldChrBase</Address>
@@ -2884,7 +3137,7 @@ unregisterSymbol(group_mask)
                 <CheatEntry>
                   <ID>1337046408</ID>
                   <Description>"EventStop"</Description>
-                  <LastState Value="0" RealAddress="1EFB90CC"/>
+                  <LastState Value="0" RealAddress="1EFB30CC"/>
                   <VariableType>Byte</VariableType>
                   <Address>DbgEventBase</Address>
                   <Offsets>
@@ -2901,7 +3154,7 @@ unregisterSymbol(group_mask)
 4:Ladder_End_Top
 5:Ladder_End_Bottom
 </DropDownList>
-                  <LastState Value="-1" RealAddress="0F92040C"/>
+                  <LastState Value="-1" RealAddress="0FF3CAFC"/>
                   <ShowAsSigned>1</ShowAsSigned>
                   <VariableType>4 Bytes</VariableType>
                   <Address>WorldChrBase</Address>
@@ -2915,7 +3168,7 @@ unregisterSymbol(group_mask)
                 <CheatEntry>
                   <ID>1337046322</ID>
                   <Description>"EzStateDummy"</Description>
-                  <LastState Value="-1" RealAddress="0F920410"/>
+                  <LastState Value="-1" RealAddress="0FF3CB00"/>
                   <ShowAsSigned>1</ShowAsSigned>
                   <VariableType>4 Bytes</VariableType>
                   <Address>WorldChrBase</Address>
@@ -2929,7 +3182,7 @@ unregisterSymbol(group_mask)
                 <CheatEntry>
                   <ID>1337046324</ID>
                   <Description>"EzStateDummy"</Description>
-                  <LastState Value="-1" RealAddress="0F920414"/>
+                  <LastState Value="-1" RealAddress="0FF3CB04"/>
                   <ShowAsSigned>1</ShowAsSigned>
                   <VariableType>4 Bytes</VariableType>
                   <Address>WorldChrBase</Address>
@@ -2943,7 +3196,7 @@ unregisterSymbol(group_mask)
                 <CheatEntry>
                   <ID>1337046323</ID>
                   <Description>"EzStateDummy"</Description>
-                  <LastState Value="-1" RealAddress="0F920418"/>
+                  <LastState Value="-1" RealAddress="0FF3CB08"/>
                   <ShowAsSigned>1</ShowAsSigned>
                   <VariableType>4 Bytes</VariableType>
                   <Address>WorldChrBase</Address>
@@ -2960,7 +3213,7 @@ unregisterSymbol(group_mask)
                   <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">30:Bonfire_Lit
 40:Unknown_Warp
 </DropDownList>
-                  <LastState Value="-1" RealAddress="0F92041C"/>
+                  <LastState Value="-1" RealAddress="0FF3CB0C"/>
                   <ShowAsSigned>1</ShowAsSigned>
                   <VariableType>4 Bytes</VariableType>
                   <Address>WorldChrBase</Address>
@@ -2983,7 +3236,7 @@ unregisterSymbol(group_mask)
                 <CheatEntry>
                   <ID>1337037783</ID>
                   <Description>"NameDisplayEarlyFlo"</Description>
-                  <LastState Value="0" RealAddress="1DE65CDB"/>
+                  <LastState Value="0" RealAddress="0FEFA04B"/>
                   <VariableType>Byte</VariableType>
                   <Address>WorldChrDbgBase</Address>
                   <Offsets>
@@ -2993,7 +3246,7 @@ unregisterSymbol(group_mask)
                 <CheatEntry>
                   <ID>1337037826</ID>
                   <Description>"NameDisplayUpdateSt"</Description>
-                  <LastState Value="0" RealAddress="1DE65CDC"/>
+                  <LastState Value="0" RealAddress="0FEFA04C"/>
                   <VariableType>Byte</VariableType>
                   <Address>WorldChrDbgBase</Address>
                   <Offsets>
@@ -3003,7 +3256,7 @@ unregisterSymbol(group_mask)
                 <CheatEntry>
                   <ID>1337037818</ID>
                   <Description>"NewKnockbackMode"</Description>
-                  <LastState Value="1" RealAddress="1DE65D7C"/>
+                  <LastState Value="1" RealAddress="0FEFA0EC"/>
                   <VariableType>Byte</VariableType>
                   <Address>WorldChrDbgBase</Address>
                   <Offsets>
@@ -3013,7 +3266,7 @@ unregisterSymbol(group_mask)
                 <CheatEntry>
                   <ID>1337037800</ID>
                   <Description>"AllHitDraw"</Description>
-                  <LastState Value="0" RealAddress="1DE65CD9"/>
+                  <LastState Value="0" RealAddress="0FEFA049"/>
                   <VariableType>Byte</VariableType>
                   <Address>WorldChrDbgBase</Address>
                   <Offsets>
@@ -3023,7 +3276,7 @@ unregisterSymbol(group_mask)
                 <CheatEntry>
                   <ID>1337037799</ID>
                   <Description>"NpcDisplayOfLocalControl"</Description>
-                  <LastState Value="0" RealAddress="1DE65CDA"/>
+                  <LastState Value="0" RealAddress="0FEFA04A"/>
                   <VariableType>Byte</VariableType>
                   <Address>WorldChrDbgBase</Address>
                   <Offsets>
@@ -3033,7 +3286,7 @@ unregisterSymbol(group_mask)
                 <CheatEntry>
                   <ID>1337037819</ID>
                   <Description>"EnableBurnTest"</Description>
-                  <LastState Value="1" RealAddress="1DE65D01"/>
+                  <LastState Value="1" RealAddress="0FEFA071"/>
                   <VariableType>Byte</VariableType>
                   <Address>WorldChrDbgBase</Address>
                   <Offsets>
@@ -3043,7 +3296,7 @@ unregisterSymbol(group_mask)
                 <CheatEntry>
                   <ID>1337037798</ID>
                   <Description>"BurnTestBeginDist"</Description>
-                  <LastState Value="0.1000000015" RealAddress="1DE65D04"/>
+                  <LastState Value="0.1000000015" RealAddress="0FEFA074"/>
                   <VariableType>Float</VariableType>
                   <Address>WorldChrDbgBase</Address>
                   <Offsets>
@@ -3053,7 +3306,7 @@ unregisterSymbol(group_mask)
                 <CheatEntry>
                   <ID>1337037797</ID>
                   <Description>"BurnTestEndDist"</Description>
-                  <LastState Value="0.8000000119" RealAddress="1DE65D08"/>
+                  <LastState Value="0.8000000119" RealAddress="0FEFA078"/>
                   <VariableType>Float</VariableType>
                   <Address>WorldChrDbgBase</Address>
                   <Offsets>
@@ -3063,7 +3316,7 @@ unregisterSymbol(group_mask)
                 <CheatEntry>
                   <ID>1337037796</ID>
                   <Description>"BurnTestEndTime"</Description>
-                  <LastState Value="0.6000000238" RealAddress="1DE65D0C"/>
+                  <LastState Value="0.6000000238" RealAddress="0FEFA07C"/>
                   <VariableType>Float</VariableType>
                   <Address>WorldChrDbgBase</Address>
                   <Offsets>
@@ -3073,7 +3326,7 @@ unregisterSymbol(group_mask)
                 <CheatEntry>
                   <ID>1337037823</ID>
                   <Description>"GasmanTestBeginDist"</Description>
-                  <LastState Value="0.1000000015" RealAddress="1DE65D10"/>
+                  <LastState Value="0.1000000015" RealAddress="0FEFA080"/>
                   <VariableType>Float</VariableType>
                   <Address>WorldChrDbgBase</Address>
                   <Offsets>
@@ -3083,7 +3336,7 @@ unregisterSymbol(group_mask)
                 <CheatEntry>
                   <ID>1337037822</ID>
                   <Description>"GasmanTestEndDist"</Description>
-                  <LastState Value="0.5" RealAddress="1DE65D14"/>
+                  <LastState Value="0.5" RealAddress="0FEFA084"/>
                   <VariableType>Float</VariableType>
                   <Address>WorldChrDbgBase</Address>
                   <Offsets>
@@ -3093,7 +3346,7 @@ unregisterSymbol(group_mask)
                 <CheatEntry>
                   <ID>1337037821</ID>
                   <Description>"GasmanTestSpeed"</Description>
-                  <LastState Value="3.5" RealAddress="1DE65D18"/>
+                  <LastState Value="3.5" RealAddress="0FEFA088"/>
                   <VariableType>Float</VariableType>
                   <Address>WorldChrDbgBase</Address>
                   <Offsets>
@@ -3112,7 +3365,7 @@ unregisterSymbol(group_mask)
                 <CheatEntry>
                   <ID>1337037829</ID>
                   <Description>"LockOn"</Description>
-                  <LastState Value="0" RealAddress="1B70B401"/>
+                  <LastState Value="0" RealAddress="0FEFC1A1"/>
                   <VariableType>Byte</VariableType>
                   <Address>LockTGTBase</Address>
                   <Offsets>
@@ -3122,7 +3375,7 @@ unregisterSymbol(group_mask)
                 <CheatEntry>
                   <ID>1337037831</ID>
                   <Description>"AddLockOnRange"</Description>
-                  <LastState Value="0" RealAddress="1B70B4F4"/>
+                  <LastState Value="0" RealAddress="0FEFC294"/>
                   <VariableType>Float</VariableType>
                   <Address>LockTGTBase</Address>
                   <Offsets>
@@ -3141,7 +3394,7 @@ unregisterSymbol(group_mask)
                 <CheatEntry>
                   <ID>1337046394</ID>
                   <Description>"Start"</Description>
-                  <LastState RealAddress="265F7300"/>
+                  <LastState RealAddress="265D3300"/>
                   <VariableType>String</VariableType>
                   <Length>0</Length>
                   <Unicode>0</Unicode>
@@ -3155,7 +3408,7 @@ unregisterSymbol(group_mask)
                 <CheatEntry>
                   <ID>1337046402</ID>
                   <Description>"Status"</Description>
-                  <LastState Value="0" RealAddress="265F7384"/>
+                  <LastState Value="0" RealAddress="265D3384"/>
                   <VariableType>Byte</VariableType>
                   <Address>MenuManBase</Address>
                   <Offsets>
@@ -3165,7 +3418,7 @@ unregisterSymbol(group_mask)
                 <CheatEntry>
                   <ID>1337046401</ID>
                   <Description>"GestureMenu"</Description>
-                  <LastState Value="0" RealAddress="265F7400"/>
+                  <LastState Value="0" RealAddress="265D3400"/>
                   <VariableType>Byte</VariableType>
                   <Address>MenuManBase</Address>
                   <Offsets>
@@ -3194,7 +3447,7 @@ unregisterSymbol(group_mask)
 17:Draw
 18:Begin_Match
 </DropDownList>
-                  <LastState Value="0" RealAddress="265F7404"/>
+                  <LastState Value="0" RealAddress="265D3404"/>
                   <VariableType>Byte</VariableType>
                   <Address>MenuManBase</Address>
                   <Offsets>
@@ -3204,7 +3457,7 @@ unregisterSymbol(group_mask)
                 <CheatEntry>
                   <ID>1337046410</ID>
                   <Description>"Message2"</Description>
-                  <LastState Value="0" RealAddress="265F7410"/>
+                  <LastState Value="0" RealAddress="265D3410"/>
                   <VariableType>Byte</VariableType>
                   <Address>MenuManBase</Address>
                   <Offsets>
@@ -3214,7 +3467,7 @@ unregisterSymbol(group_mask)
                 <CheatEntry>
                   <ID>1337046411</ID>
                   <Description>"TestMenu"</Description>
-                  <LastState Value="0" RealAddress="265F7414"/>
+                  <LastState Value="0" RealAddress="265D3414"/>
                   <VariableType>Byte</VariableType>
                   <Address>MenuManBase</Address>
                   <Offsets>
@@ -3224,7 +3477,7 @@ unregisterSymbol(group_mask)
                 <CheatEntry>
                   <ID>1337046404</ID>
                   <Description>"Brightness"</Description>
-                  <LastState Value="0" RealAddress="265F741C"/>
+                  <LastState Value="0" RealAddress="265D341C"/>
                   <VariableType>Byte</VariableType>
                   <Address>MenuManBase</Address>
                   <Offsets>
@@ -3234,7 +3487,7 @@ unregisterSymbol(group_mask)
                 <CheatEntry>
                   <ID>1337046412</ID>
                   <Description>"Feed"</Description>
-                  <LastState Value="0" RealAddress="265F7430"/>
+                  <LastState Value="0" RealAddress="265D3430"/>
                   <VariableType>Byte</VariableType>
                   <Address>MenuManBase</Address>
                   <Offsets>
@@ -3244,7 +3497,7 @@ unregisterSymbol(group_mask)
                 <CheatEntry>
                   <ID>1337046413</ID>
                   <Description>"Messages"</Description>
-                  <LastState Value="0" RealAddress="265F7434"/>
+                  <LastState Value="0" RealAddress="265D3434"/>
                   <VariableType>Byte</VariableType>
                   <Address>MenuManBase</Address>
                   <Offsets>
@@ -3254,7 +3507,7 @@ unregisterSymbol(group_mask)
                 <CheatEntry>
                   <ID>1337046414</ID>
                   <Description>"MenuCommonID"</Description>
-                  <LastState Value="0" RealAddress="265F743C"/>
+                  <LastState Value="0" RealAddress="265D343C"/>
                   <VariableType>Byte</VariableType>
                   <Address>MenuManBase</Address>
                   <Offsets>
@@ -3264,7 +3517,7 @@ unregisterSymbol(group_mask)
                 <CheatEntry>
                   <ID>1337046416</ID>
                   <Description>"UseGoods"</Description>
-                  <LastState Value="0" RealAddress="265F74E4"/>
+                  <LastState Value="0" RealAddress="265D34E4"/>
                   <VariableType>Byte</VariableType>
                   <Address>MenuManBase</Address>
                   <Offsets>
@@ -3274,11 +3527,21 @@ unregisterSymbol(group_mask)
                 <CheatEntry>
                   <ID>1337046418</ID>
                   <Description>"AddSouls_Menu"</Description>
-                  <LastState Value="0" RealAddress="265F750C"/>
+                  <LastState Value="0" RealAddress="265D350C"/>
                   <VariableType>4 Bytes</VariableType>
                   <Address>MenuManBase</Address>
                   <Offsets>
                     <Offset>20C</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>1337046677</ID>
+                  <Description>"MainMenu"</Description>
+                  <LastState Value="0" RealAddress="265D354C"/>
+                  <VariableType>Byte</VariableType>
+                  <Address>"DarkSoulsRemastered.exe"+1CFF7C8</Address>
+                  <Offsets>
+                    <Offset>24C</Offset>
                   </Offsets>
                 </CheatEntry>
               </CheatEntries>
@@ -3336,42 +3599,6 @@ Iframes:
 
 unregistersymbol(Iframes)
 dealloc(newmem)
-</AssemblerScript>
-            </CheatEntry>
-            <CheatEntry>
-              <ID>1337046473</ID>
-              <Description>"Signs RefreshRate (Test)"</Description>
-              <LastState/>
-              <VariableType>Auto Assembler Script</VariableType>
-              <AssemblerScript>[ENABLE]
-//code from here to '[DISABLE]' will be used to enable the cheat
-alloc(newmem,256,"DarkSoulsRemastered.exe"+10EC65A)
-label(returnhere)
-label(originalcode)
-label(exit)
-
-newmem: //this is allocated memory, you have read,write,execute access
-mov [rcx+44],(float)0
-
-originalcode:
-movss xmm0,[rcx+44]
-
-exit:
-jmp returnhere
-
-"DarkSoulsRemastered.exe"+10EC65A:
-jmp newmem
-returnhere:
-
-
- 
- 
-[DISABLE]
-//code from here till the end of the code will be used to disable the cheat
-dealloc(newmem)
-"DarkSoulsRemastered.exe"+10EC65A:
-movss xmm0,[rcx+44]
-//Alt: db F3 0F 10 41 44
 </AssemblerScript>
             </CheatEntry>
             <CheatEntry>
@@ -3585,6 +3812,83 @@ dealloc(newmem)
 </AssemblerScript>
             </CheatEntry>
             <CheatEntry>
+              <ID>1337046700</ID>
+              <Description>"IncreasedDropRate"</Description>
+              <LastState/>
+              <VariableType>Auto Assembler Script</VariableType>
+              <AssemblerScript>[ENABLE]
+
+aobscanmodule(DropRate,DarkSoulsRemastered.exe,45 0F B7 41 40 41 0F) // should be unique
+alloc(newmem,64,"DarkSoulsRemastered.exe"+520829)
+
+label(code)
+label(return)
+
+newmem:
+
+code:
+  movzx r8d,word ptr [r9+40]
+  mov r8w,1
+  jmp return
+
+DropRate:
+  jmp newmem
+return:
+registersymbol(DropRate)
+
+[DISABLE]
+
+DropRate:
+  db 45 0F B7 41 40
+
+unregistersymbol(DropRate)
+dealloc(newmem)
+
+</AssemblerScript>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>1337046490</ID>
+              <Description>"AgressionModDS1R"</Description>
+              <LastState/>
+              <VariableType>Auto Assembler Script</VariableType>
+              <AssemblerScript>[ENABLE]
+
+aobscanmodule(AgressionModDS1R,DarkSoulsRemastered.exe,0F 29 83 A0 02 00 00) // should be unique
+alloc(newmem,512,"DarkSoulsRemastered.exe"+3157C2)
+
+label(code)
+label(return)
+
+newmem:
+  push r15
+  mov r15,[DarkSoulsRemastered.exe+1CEE830]
+  mov r15,[r15+68]
+  mov r15,[r15+48]
+  mov r15,[r15+28]
+  movaps xmm0,[r15+10]
+  pop r15
+code:
+  movaps [rbx+00000120],xmm0
+  movaps [rbx+000002A0],xmm0
+  jmp return
+
+AgressionModDS1R:
+  jmp newmem
+  nop
+  nop
+return:
+registersymbol(AgressionModDS1R)
+
+[DISABLE]
+
+AgressionModDS1R:
+  db 0F 29 83 A0 02 00 00
+
+unregistersymbol(AgressionModDS1R)
+dealloc(newmem)
+</AssemblerScript>
+            </CheatEntry>
+            <CheatEntry>
               <ID>1337046486</ID>
               <Description>"FpsDisconnect"</Description>
               <LastState/>
@@ -3722,7 +4026,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>91508</ID>
               <Description>"name"</Description>
-              <LastState RealAddress="1E9E4FD0"/>
+              <LastState RealAddress="1E9DEFD0"/>
               <VariableType>String</VariableType>
               <Length>32</Length>
               <Unicode>1</Unicode>
@@ -3738,7 +4042,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>91649</ID>
                   <Description>"data"</Description>
-                  <LastState Value="" RealAddress="1BEA9390"/>
+                  <LastState Value="" RealAddress="1BEA3390"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>Array of byte</VariableType>
                   <ByteLength>0</ByteLength>
@@ -3752,7 +4056,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>91510</ID>
                   <Description>"enable"</Description>
-                  <LastState Value="1" RealAddress="0E624BA0"/>
+                  <LastState Value="1" RealAddress="0E61EBA0"/>
                   <VariableType>Byte</VariableType>
                   <Address>Param</Address>
                   <Offsets>
@@ -3764,7 +4068,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>91512</ID>
               <Description>"name"</Description>
-              <LastState RealAddress="1E9ECFD0"/>
+              <LastState RealAddress="1E9E6FD0"/>
               <VariableType>String</VariableType>
               <Length>32</Length>
               <Unicode>1</Unicode>
@@ -3780,7 +4084,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>91650</ID>
                   <Description>"data"</Description>
-                  <LastState Value="" RealAddress="1BF08480"/>
+                  <LastState Value="" RealAddress="1BF02480"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>Array of byte</VariableType>
                   <ByteLength>0</ByteLength>
@@ -3794,7 +4098,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>91513</ID>
                   <Description>"enable"</Description>
-                  <LastState Value="1" RealAddress="0E624BE8"/>
+                  <LastState Value="1" RealAddress="0E61EBE8"/>
                   <VariableType>Byte</VariableType>
                   <Address>Param</Address>
                   <Offsets>
@@ -3806,7 +4110,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>91514</ID>
               <Description>"name"</Description>
-              <LastState RealAddress="1E9EFFD0"/>
+              <LastState RealAddress="1E9E9FD0"/>
               <VariableType>String</VariableType>
               <Length>32</Length>
               <Unicode>1</Unicode>
@@ -3822,7 +4126,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>91651</ID>
                   <Description>"data"</Description>
-                  <LastState Value="" RealAddress="1BDBE190"/>
+                  <LastState Value="" RealAddress="1BDB8190"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>Array of byte</VariableType>
                   <ByteLength>0</ByteLength>
@@ -3836,7 +4140,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>91515</ID>
                   <Description>"enable"</Description>
-                  <LastState Value="1" RealAddress="0E624C30"/>
+                  <LastState Value="1" RealAddress="0E61EC30"/>
                   <VariableType>Byte</VariableType>
                   <Address>Param</Address>
                   <Offsets>
@@ -3848,7 +4152,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>91516</ID>
               <Description>"name"</Description>
-              <LastState RealAddress="1E9F6F50"/>
+              <LastState RealAddress="1E9F0F50"/>
               <VariableType>String</VariableType>
               <Length>32</Length>
               <Unicode>1</Unicode>
@@ -3864,7 +4168,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>91652</ID>
                   <Description>"data"</Description>
-                  <LastState Value="" RealAddress="1BDBF170"/>
+                  <LastState Value="" RealAddress="1BDB9170"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>Array of byte</VariableType>
                   <ByteLength>0</ByteLength>
@@ -3878,7 +4182,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>91517</ID>
                   <Description>"enable"</Description>
-                  <LastState Value="1" RealAddress="0E624C78"/>
+                  <LastState Value="1" RealAddress="0E61EC78"/>
                   <VariableType>Byte</VariableType>
                   <Address>Param</Address>
                   <Offsets>
@@ -3890,7 +4194,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>91518</ID>
               <Description>"name"</Description>
-              <LastState RealAddress="1EA6BF50"/>
+              <LastState RealAddress="1EA65F50"/>
               <VariableType>String</VariableType>
               <Length>32</Length>
               <Unicode>1</Unicode>
@@ -3906,7 +4210,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>91653</ID>
                   <Description>"data"</Description>
-                  <LastState Value="" RealAddress="1BF1D4B0"/>
+                  <LastState Value="" RealAddress="1BF174B0"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>Array of byte</VariableType>
                   <ByteLength>0</ByteLength>
@@ -3920,7 +4224,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>91519</ID>
                   <Description>"enable"</Description>
-                  <LastState Value="1" RealAddress="0E624CC0"/>
+                  <LastState Value="1" RealAddress="0E61ECC0"/>
                   <VariableType>Byte</VariableType>
                   <Address>Param</Address>
                   <Offsets>
@@ -3932,7 +4236,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>91520</ID>
               <Description>"name"</Description>
-              <LastState RealAddress="1EA87F50"/>
+              <LastState RealAddress="1EA81F50"/>
               <VariableType>String</VariableType>
               <Length>32</Length>
               <Unicode>1</Unicode>
@@ -3948,7 +4252,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>91654</ID>
                   <Description>"data"</Description>
-                  <LastState Value="" RealAddress="1BDC76F0"/>
+                  <LastState Value="" RealAddress="1BDC16F0"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>Array of byte</VariableType>
                   <ByteLength>0</ByteLength>
@@ -3962,7 +4266,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>91521</ID>
                   <Description>"enable"</Description>
-                  <LastState Value="1" RealAddress="0E624D08"/>
+                  <LastState Value="1" RealAddress="0E61ED08"/>
                   <VariableType>Byte</VariableType>
                   <Address>Param</Address>
                   <Offsets>
@@ -3974,7 +4278,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>91522</ID>
               <Description>"name"</Description>
-              <LastState RealAddress="1EC98FB0"/>
+              <LastState RealAddress="1EC92FB0"/>
               <VariableType>String</VariableType>
               <Length>32</Length>
               <Unicode>1</Unicode>
@@ -3990,7 +4294,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>91655</ID>
                   <Description>"data"</Description>
-                  <LastState Value="" RealAddress="1BFA8270"/>
+                  <LastState Value="" RealAddress="1BFA2270"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>Array of byte</VariableType>
                   <ByteLength>0</ByteLength>
@@ -4004,7 +4308,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>91523</ID>
                   <Description>"enable"</Description>
-                  <LastState Value="1" RealAddress="0E624D50"/>
+                  <LastState Value="1" RealAddress="0E61ED50"/>
                   <VariableType>Byte</VariableType>
                   <Address>Param</Address>
                   <Offsets>
@@ -4016,7 +4320,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>91594</ID>
               <Description>"name"</Description>
-              <LastState RealAddress="1EA31FB0"/>
+              <LastState RealAddress="1EA2BFB0"/>
               <VariableType>String</VariableType>
               <Length>32</Length>
               <Unicode>1</Unicode>
@@ -4032,7 +4336,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>91656</ID>
                   <Description>"data"</Description>
-                  <LastState Value="" RealAddress="1C015FD0"/>
+                  <LastState Value="" RealAddress="1C00FFD0"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>Array of byte</VariableType>
                   <ByteLength>0</ByteLength>
@@ -4046,7 +4350,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>91593</ID>
                   <Description>"enable"</Description>
-                  <LastState Value="1" RealAddress="0E624D98"/>
+                  <LastState Value="1" RealAddress="0E61ED98"/>
                   <VariableType>Byte</VariableType>
                   <Address>Param</Address>
                   <Offsets>
@@ -4058,7 +4362,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>91592</ID>
               <Description>"name"</Description>
-              <LastState RealAddress="1EC71FB0"/>
+              <LastState RealAddress="1EC6BFB0"/>
               <VariableType>String</VariableType>
               <Length>32</Length>
               <Unicode>1</Unicode>
@@ -4074,7 +4378,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>91657</ID>
                   <Description>"data"</Description>
-                  <LastState Value="" RealAddress="1BFDC400"/>
+                  <LastState Value="" RealAddress="1BFD6400"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>Array of byte</VariableType>
                   <ByteLength>0</ByteLength>
@@ -4088,7 +4392,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>91595</ID>
                   <Description>"enable"</Description>
-                  <LastState Value="1" RealAddress="0E624DE0"/>
+                  <LastState Value="1" RealAddress="0E61EDE0"/>
                   <VariableType>Byte</VariableType>
                   <Address>Param</Address>
                   <Offsets>
@@ -4100,7 +4404,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>91590</ID>
               <Description>"name"</Description>
-              <LastState RealAddress="1EA4EFB0"/>
+              <LastState RealAddress="1EA48FB0"/>
               <VariableType>String</VariableType>
               <Length>32</Length>
               <Unicode>1</Unicode>
@@ -4116,7 +4420,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>91658</ID>
                   <Description>"data"</Description>
-                  <LastState Value="" RealAddress="1C07A520"/>
+                  <LastState Value="" RealAddress="1C074520"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>Array of byte</VariableType>
                   <ByteLength>0</ByteLength>
@@ -4130,7 +4434,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>91591</ID>
                   <Description>"enable"</Description>
-                  <LastState Value="1" RealAddress="0E624E28"/>
+                  <LastState Value="1" RealAddress="0E61EE28"/>
                   <VariableType>Byte</VariableType>
                   <Address>Param</Address>
                   <Offsets>
@@ -4142,7 +4446,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>91588</ID>
               <Description>"name"</Description>
-              <LastState RealAddress="1E9FBFB0"/>
+              <LastState RealAddress="1E9F5FB0"/>
               <VariableType>String</VariableType>
               <Length>32</Length>
               <Unicode>1</Unicode>
@@ -4158,7 +4462,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>91659</ID>
                   <Description>"data"</Description>
-                  <LastState Value="" RealAddress="1C08C180"/>
+                  <LastState Value="" RealAddress="1C086180"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>Array of byte</VariableType>
                   <ByteLength>0</ByteLength>
@@ -4172,7 +4476,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>91589</ID>
                   <Description>"enable"</Description>
-                  <LastState Value="1" RealAddress="0E624E70"/>
+                  <LastState Value="1" RealAddress="0E61EE70"/>
                   <VariableType>Byte</VariableType>
                   <Address>Param</Address>
                   <Offsets>
@@ -4184,7 +4488,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>91586</ID>
               <Description>"name"</Description>
-              <LastState RealAddress="1EC1EFD0"/>
+              <LastState RealAddress="1EC18FD0"/>
               <VariableType>String</VariableType>
               <Length>32</Length>
               <Unicode>1</Unicode>
@@ -4200,7 +4504,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>91660</ID>
                   <Description>"data"</Description>
-                  <LastState Value="" RealAddress="1C0969A0"/>
+                  <LastState Value="" RealAddress="1C0909A0"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>Array of byte</VariableType>
                   <ByteLength>0</ByteLength>
@@ -4214,7 +4518,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>91587</ID>
                   <Description>"enable"</Description>
-                  <LastState Value="1" RealAddress="0E624EB8"/>
+                  <LastState Value="1" RealAddress="0E61EEB8"/>
                   <VariableType>Byte</VariableType>
                   <Address>Param</Address>
                   <Offsets>
@@ -4226,7 +4530,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>91584</ID>
               <Description>"name"</Description>
-              <LastState RealAddress="1E9F1FB0"/>
+              <LastState RealAddress="1E9EBFB0"/>
               <VariableType>String</VariableType>
               <Length>32</Length>
               <Unicode>1</Unicode>
@@ -4242,7 +4546,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>91661</ID>
                   <Description>"data"</Description>
-                  <LastState Value="" RealAddress="1BF379A0"/>
+                  <LastState Value="" RealAddress="1BF319A0"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>Array of byte</VariableType>
                   <ByteLength>0</ByteLength>
@@ -4256,7 +4560,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>91585</ID>
                   <Description>"enable"</Description>
-                  <LastState Value="1" RealAddress="0E624F00"/>
+                  <LastState Value="1" RealAddress="0E61EF00"/>
                   <VariableType>Byte</VariableType>
                   <Address>Param</Address>
                   <Offsets>
@@ -4268,7 +4572,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>91582</ID>
               <Description>"name"</Description>
-              <LastState RealAddress="1EA04FB0"/>
+              <LastState RealAddress="1E9FEFB0"/>
               <VariableType>String</VariableType>
               <Length>32</Length>
               <Unicode>1</Unicode>
@@ -4284,7 +4588,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>91662</ID>
                   <Description>"data"</Description>
-                  <LastState Value="" RealAddress="1BF6BE90"/>
+                  <LastState Value="" RealAddress="1BF65E90"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>Array of byte</VariableType>
                   <ByteLength>0</ByteLength>
@@ -4298,7 +4602,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>91583</ID>
                   <Description>"enable"</Description>
-                  <LastState Value="1" RealAddress="0E624F48"/>
+                  <LastState Value="1" RealAddress="0E61EF48"/>
                   <VariableType>Byte</VariableType>
                   <Address>Param</Address>
                   <Offsets>
@@ -4310,7 +4614,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>91580</ID>
               <Description>"name"</Description>
-              <LastState RealAddress="1EA14FB0"/>
+              <LastState RealAddress="1EA0EFB0"/>
               <VariableType>String</VariableType>
               <Length>32</Length>
               <Unicode>1</Unicode>
@@ -4326,7 +4630,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>91663</ID>
                   <Description>"data"</Description>
-                  <LastState Value="" RealAddress="1C077930"/>
+                  <LastState Value="" RealAddress="1C071930"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>Array of byte</VariableType>
                   <ByteLength>0</ByteLength>
@@ -4340,7 +4644,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>91581</ID>
                   <Description>"enable"</Description>
-                  <LastState Value="1" RealAddress="0E624F90"/>
+                  <LastState Value="1" RealAddress="0E61EF90"/>
                   <VariableType>Byte</VariableType>
                   <Address>Param</Address>
                   <Offsets>
@@ -4352,7 +4656,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>91578</ID>
               <Description>"name"</Description>
-              <LastState RealAddress="1EAF2FB0"/>
+              <LastState RealAddress="1EAECFB0"/>
               <VariableType>String</VariableType>
               <Length>32</Length>
               <Unicode>1</Unicode>
@@ -4368,7 +4672,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>91664</ID>
                   <Description>"data"</Description>
-                  <LastState Value="" RealAddress="1C0B6AD0"/>
+                  <LastState Value="" RealAddress="1C0B0AD0"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>Array of byte</VariableType>
                   <ByteLength>0</ByteLength>
@@ -4382,7 +4686,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>91579</ID>
                   <Description>"enable"</Description>
-                  <LastState Value="1" RealAddress="0E624FD8"/>
+                  <LastState Value="1" RealAddress="0E61EFD8"/>
                   <VariableType>Byte</VariableType>
                   <Address>Param</Address>
                   <Offsets>
@@ -4394,7 +4698,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>91576</ID>
               <Description>"name"</Description>
-              <LastState RealAddress="1EB01FB0"/>
+              <LastState RealAddress="1EAFBFB0"/>
               <VariableType>String</VariableType>
               <Length>32</Length>
               <Unicode>1</Unicode>
@@ -4410,7 +4714,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>91665</ID>
                   <Description>"data"</Description>
-                  <LastState Value="" RealAddress="1C10BC00"/>
+                  <LastState Value="" RealAddress="1C105C00"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>Array of byte</VariableType>
                   <ByteLength>0</ByteLength>
@@ -4424,7 +4728,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>91577</ID>
                   <Description>"enable"</Description>
-                  <LastState Value="1" RealAddress="0E625020"/>
+                  <LastState Value="1" RealAddress="0E61F020"/>
                   <VariableType>Byte</VariableType>
                   <Address>Param</Address>
                   <Offsets>
@@ -4436,7 +4740,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>91574</ID>
               <Description>"name"</Description>
-              <LastState RealAddress="1EC23FD0"/>
+              <LastState RealAddress="1EC1DFD0"/>
               <VariableType>String</VariableType>
               <Length>32</Length>
               <Unicode>1</Unicode>
@@ -4452,7 +4756,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>91666</ID>
                   <Description>"data"</Description>
-                  <LastState Value="" RealAddress="1C111560"/>
+                  <LastState Value="" RealAddress="1C10B560"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>Array of byte</VariableType>
                   <ByteLength>0</ByteLength>
@@ -4466,7 +4770,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>91575</ID>
                   <Description>"enable"</Description>
-                  <LastState Value="1" RealAddress="0E625068"/>
+                  <LastState Value="1" RealAddress="0E61F068"/>
                   <VariableType>Byte</VariableType>
                   <Address>Param</Address>
                   <Offsets>
@@ -4478,7 +4782,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>91630</ID>
               <Description>"name"</Description>
-              <LastState RealAddress="1EBC6FB0"/>
+              <LastState RealAddress="1EBC0FB0"/>
               <VariableType>String</VariableType>
               <Length>32</Length>
               <Unicode>1</Unicode>
@@ -4494,7 +4798,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>91667</ID>
                   <Description>"data"</Description>
-                  <LastState Value="" RealAddress="1C161420"/>
+                  <LastState Value="" RealAddress="1C15B420"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>Array of byte</VariableType>
                   <ByteLength>0</ByteLength>
@@ -4508,7 +4812,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>91631</ID>
                   <Description>"enable"</Description>
-                  <LastState Value="1" RealAddress="0E6250B0"/>
+                  <LastState Value="1" RealAddress="0E61F0B0"/>
                   <VariableType>Byte</VariableType>
                   <Address>Param</Address>
                   <Offsets>
@@ -4520,7 +4824,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>91628</ID>
               <Description>"name"</Description>
-              <LastState RealAddress="1EBD3FB0"/>
+              <LastState RealAddress="1EBCDFB0"/>
               <VariableType>String</VariableType>
               <Length>32</Length>
               <Unicode>1</Unicode>
@@ -4536,7 +4840,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>91668</ID>
                   <Description>"data"</Description>
-                  <LastState Value="" RealAddress="1C162280"/>
+                  <LastState Value="" RealAddress="1C15C280"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>Array of byte</VariableType>
                   <ByteLength>0</ByteLength>
@@ -4550,7 +4854,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>91629</ID>
                   <Description>"enable"</Description>
-                  <LastState Value="1" RealAddress="0E6250F8"/>
+                  <LastState Value="1" RealAddress="0E61F0F8"/>
                   <VariableType>Byte</VariableType>
                   <Address>Param</Address>
                   <Offsets>
@@ -4562,7 +4866,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>91626</ID>
               <Description>"name"</Description>
-              <LastState RealAddress="1EC46FD0"/>
+              <LastState RealAddress="1EC40FD0"/>
               <VariableType>String</VariableType>
               <Length>32</Length>
               <Unicode>1</Unicode>
@@ -4578,7 +4882,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>91669</ID>
                   <Description>"data"</Description>
-                  <LastState Value="" RealAddress="1C1A8870"/>
+                  <LastState Value="" RealAddress="1C1A2870"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>Array of byte</VariableType>
                   <ByteLength>0</ByteLength>
@@ -4592,7 +4896,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>91627</ID>
                   <Description>"enable"</Description>
-                  <LastState Value="1" RealAddress="0E625140"/>
+                  <LastState Value="1" RealAddress="0E61F140"/>
                   <VariableType>Byte</VariableType>
                   <Address>Param</Address>
                   <Offsets>
@@ -4604,7 +4908,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>91624</ID>
               <Description>"name"</Description>
-              <LastState RealAddress="1EC03FB0"/>
+              <LastState RealAddress="1EBFDFB0"/>
               <VariableType>String</VariableType>
               <Length>32</Length>
               <Unicode>1</Unicode>
@@ -4620,7 +4924,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>91670</ID>
                   <Description>"data"</Description>
-                  <LastState Value="" RealAddress="1C1AB6E0"/>
+                  <LastState Value="" RealAddress="1C1A56E0"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>Array of byte</VariableType>
                   <ByteLength>0</ByteLength>
@@ -4634,7 +4938,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>91625</ID>
                   <Description>"enable"</Description>
-                  <LastState Value="1" RealAddress="0E625188"/>
+                  <LastState Value="1" RealAddress="0E61F188"/>
                   <VariableType>Byte</VariableType>
                   <Address>Param</Address>
                   <Offsets>
@@ -4646,7 +4950,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>91622</ID>
               <Description>"name"</Description>
-              <LastState RealAddress="1E9F5FD0"/>
+              <LastState RealAddress="1E9EFFD0"/>
               <VariableType>String</VariableType>
               <Length>32</Length>
               <Unicode>1</Unicode>
@@ -4662,7 +4966,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>91671</ID>
                   <Description>"data"</Description>
-                  <LastState Value="" RealAddress="1BF2B750"/>
+                  <LastState Value="" RealAddress="1BF25750"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>Array of byte</VariableType>
                   <ByteLength>0</ByteLength>
@@ -4676,7 +4980,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>91623</ID>
                   <Description>"enable"</Description>
-                  <LastState Value="1" RealAddress="0E6251D0"/>
+                  <LastState Value="1" RealAddress="0E61F1D0"/>
                   <VariableType>Byte</VariableType>
                   <Address>Param</Address>
                   <Offsets>
@@ -4688,7 +4992,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>91620</ID>
               <Description>"name"</Description>
-              <LastState RealAddress="1EC0A050"/>
+              <LastState RealAddress="1EC04050"/>
               <VariableType>String</VariableType>
               <Length>32</Length>
               <Unicode>1</Unicode>
@@ -4704,7 +5008,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>91672</ID>
                   <Description>"data"</Description>
-                  <LastState Value="" RealAddress="1C1C1840"/>
+                  <LastState Value="" RealAddress="1C1BB840"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>Array of byte</VariableType>
                   <ByteLength>0</ByteLength>
@@ -4718,7 +5022,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>91621</ID>
                   <Description>"enable"</Description>
-                  <LastState Value="1" RealAddress="0E625218"/>
+                  <LastState Value="1" RealAddress="0E61F218"/>
                   <VariableType>Byte</VariableType>
                   <Address>Param</Address>
                   <Offsets>
@@ -4730,7 +5034,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>91618</ID>
               <Description>"name"</Description>
-              <LastState RealAddress="1EC3F010"/>
+              <LastState RealAddress="1EC39010"/>
               <VariableType>String</VariableType>
               <Length>32</Length>
               <Unicode>1</Unicode>
@@ -4746,7 +5050,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>91673</ID>
                   <Description>"data"</Description>
-                  <LastState Value="" RealAddress="1C1C76D0"/>
+                  <LastState Value="" RealAddress="1C1C16D0"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>Array of byte</VariableType>
                   <ByteLength>0</ByteLength>
@@ -4760,7 +5064,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>91619</ID>
                   <Description>"enable"</Description>
-                  <LastState Value="1" RealAddress="0E625260"/>
+                  <LastState Value="1" RealAddress="0E61F260"/>
                   <VariableType>Byte</VariableType>
                   <Address>Param</Address>
                   <Offsets>
@@ -4772,7 +5076,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>91616</ID>
               <Description>"name"</Description>
-              <LastState RealAddress="1EC57FB0"/>
+              <LastState RealAddress="1EC51FB0"/>
               <VariableType>String</VariableType>
               <Length>32</Length>
               <Unicode>1</Unicode>
@@ -4788,7 +5092,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>91674</ID>
                   <Description>"data"</Description>
-                  <LastState Value="" RealAddress="1C1C82D0"/>
+                  <LastState Value="" RealAddress="1C1C22D0"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>Array of byte</VariableType>
                   <ByteLength>0</ByteLength>
@@ -4802,7 +5106,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>91617</ID>
                   <Description>"enable"</Description>
-                  <LastState Value="1" RealAddress="0E6252A8"/>
+                  <LastState Value="1" RealAddress="0E61F2A8"/>
                   <VariableType>Byte</VariableType>
                   <Address>Param</Address>
                   <Offsets>
@@ -4814,7 +5118,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>91614</ID>
               <Description>"name"</Description>
-              <LastState RealAddress="1EC63FB0"/>
+              <LastState RealAddress="1EC5DFB0"/>
               <VariableType>String</VariableType>
               <Length>32</Length>
               <Unicode>1</Unicode>
@@ -4830,7 +5134,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>91675</ID>
                   <Description>"data"</Description>
-                  <LastState Value="" RealAddress="1BDC7C50"/>
+                  <LastState Value="" RealAddress="1BDC1C50"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>Array of byte</VariableType>
                   <ByteLength>0</ByteLength>
@@ -4844,7 +5148,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>91615</ID>
                   <Description>"enable"</Description>
-                  <LastState Value="1" RealAddress="0E6252F0"/>
+                  <LastState Value="1" RealAddress="0E61F2F0"/>
                   <VariableType>Byte</VariableType>
                   <Address>Param</Address>
                   <Offsets>
@@ -4856,7 +5160,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>91612</ID>
               <Description>"name"</Description>
-              <LastState RealAddress="1ECCCFD0"/>
+              <LastState RealAddress="1ECC6FD0"/>
               <VariableType>String</VariableType>
               <Length>32</Length>
               <Unicode>1</Unicode>
@@ -4872,7 +5176,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>91676</ID>
                   <Description>"data"</Description>
-                  <LastState Value="" RealAddress="1C1CEE20"/>
+                  <LastState Value="" RealAddress="1C1C8E20"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>Array of byte</VariableType>
                   <ByteLength>0</ByteLength>
@@ -4886,7 +5190,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>91613</ID>
                   <Description>"enable"</Description>
-                  <LastState Value="1" RealAddress="0E625338"/>
+                  <LastState Value="1" RealAddress="0E61F338"/>
                   <VariableType>Byte</VariableType>
                   <Address>Param</Address>
                   <Offsets>
@@ -4898,7 +5202,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>91610</ID>
               <Description>"name"</Description>
-              <LastState RealAddress="1ECD5010"/>
+              <LastState RealAddress="1ECCF010"/>
               <VariableType>String</VariableType>
               <Length>32</Length>
               <Unicode>1</Unicode>
@@ -4914,7 +5218,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>91677</ID>
                   <Description>"data"</Description>
-                  <LastState Value="" RealAddress="1C1D0140"/>
+                  <LastState Value="" RealAddress="1C1CA140"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>Array of byte</VariableType>
                   <ByteLength>0</ByteLength>
@@ -4928,7 +5232,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>91611</ID>
                   <Description>"enable"</Description>
-                  <LastState Value="1" RealAddress="0E625380"/>
+                  <LastState Value="1" RealAddress="0E61F380"/>
                   <VariableType>Byte</VariableType>
                   <Address>Param</Address>
                   <Offsets>
@@ -4940,7 +5244,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>91608</ID>
               <Description>"name"</Description>
-              <LastState RealAddress="1ED83010"/>
+              <LastState RealAddress="1ED7D010"/>
               <VariableType>String</VariableType>
               <Length>32</Length>
               <Unicode>1</Unicode>
@@ -4956,7 +5260,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>91678</ID>
                   <Description>"data"</Description>
-                  <LastState Value="" RealAddress="1C1D0E70"/>
+                  <LastState Value="" RealAddress="1C1CAE70"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>Array of byte</VariableType>
                   <ByteLength>0</ByteLength>
@@ -4970,7 +5274,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>91609</ID>
                   <Description>"enable"</Description>
-                  <LastState Value="1" RealAddress="0E6253C8"/>
+                  <LastState Value="1" RealAddress="0E61F3C8"/>
                   <VariableType>Byte</VariableType>
                   <Address>Param</Address>
                   <Offsets>
@@ -4982,7 +5286,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>91606</ID>
               <Description>"name"</Description>
-              <LastState RealAddress="1ED94030"/>
+              <LastState RealAddress="1ED8E030"/>
               <VariableType>String</VariableType>
               <Length>32</Length>
               <Unicode>1</Unicode>
@@ -4998,7 +5302,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>91679</ID>
                   <Description>"data"</Description>
-                  <LastState Value="" RealAddress="1C1D1A60"/>
+                  <LastState Value="" RealAddress="1C1CBA60"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>Array of byte</VariableType>
                   <ByteLength>0</ByteLength>
@@ -5012,7 +5316,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>91607</ID>
                   <Description>"enable"</Description>
-                  <LastState Value="1" RealAddress="0E625410"/>
+                  <LastState Value="1" RealAddress="0E61F410"/>
                   <VariableType>Byte</VariableType>
                   <Address>Param</Address>
                   <Offsets>
@@ -5024,7 +5328,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>91604</ID>
               <Description>"name"</Description>
-              <LastState RealAddress="1EC8FFB0"/>
+              <LastState RealAddress="1EC89FB0"/>
               <VariableType>String</VariableType>
               <Length>32</Length>
               <Unicode>1</Unicode>
@@ -5040,7 +5344,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>91680</ID>
                   <Description>"data"</Description>
-                  <LastState Value="" RealAddress="1C1D2C30"/>
+                  <LastState Value="" RealAddress="1C1CCC30"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>Array of byte</VariableType>
                   <ByteLength>0</ByteLength>
@@ -5054,7 +5358,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>91605</ID>
                   <Description>"enable"</Description>
-                  <LastState Value="1" RealAddress="0E625458"/>
+                  <LastState Value="1" RealAddress="0E61F458"/>
                   <VariableType>Byte</VariableType>
                   <Address>Param</Address>
                   <Offsets>
@@ -5066,7 +5370,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>91602</ID>
               <Description>"name"</Description>
-              <LastState RealAddress="1ECEDFD0"/>
+              <LastState RealAddress="1ECE7FD0"/>
               <VariableType>String</VariableType>
               <Length>32</Length>
               <Unicode>1</Unicode>
@@ -5082,7 +5386,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>91681</ID>
                   <Description>"data"</Description>
-                  <LastState Value="" RealAddress="1C1D36F0"/>
+                  <LastState Value="" RealAddress="1C1CD6F0"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>Array of byte</VariableType>
                   <ByteLength>0</ByteLength>
@@ -5096,7 +5400,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>91603</ID>
                   <Description>"enable"</Description>
-                  <LastState Value="1" RealAddress="0E6254A0"/>
+                  <LastState Value="1" RealAddress="0E61F4A0"/>
                   <VariableType>Byte</VariableType>
                   <Address>Param</Address>
                   <Offsets>
@@ -5108,7 +5412,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>91600</ID>
               <Description>"name"</Description>
-              <LastState RealAddress="1EC5BFB0"/>
+              <LastState RealAddress="1EC55FB0"/>
               <VariableType>String</VariableType>
               <Length>32</Length>
               <Unicode>1</Unicode>
@@ -5124,7 +5428,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>91682</ID>
                   <Description>"data"</Description>
-                  <LastState Value="" RealAddress="1C1D4500"/>
+                  <LastState Value="" RealAddress="1C1CE500"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>Array of byte</VariableType>
                   <ByteLength>0</ByteLength>
@@ -5138,7 +5442,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>91601</ID>
                   <Description>"enable"</Description>
-                  <LastState Value="1" RealAddress="0E6254E8"/>
+                  <LastState Value="1" RealAddress="0E61F4E8"/>
                   <VariableType>Byte</VariableType>
                   <Address>Param</Address>
                   <Offsets>
@@ -5150,7 +5454,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>91598</ID>
               <Description>"name"</Description>
-              <LastState RealAddress="1EBE2FB0"/>
+              <LastState RealAddress="1EBDCFB0"/>
               <VariableType>String</VariableType>
               <Length>32</Length>
               <Unicode>1</Unicode>
@@ -5166,7 +5470,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>91683</ID>
                   <Description>"data"</Description>
-                  <LastState Value="" RealAddress="1BDC7F50"/>
+                  <LastState Value="" RealAddress="1BDC1F50"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>Array of byte</VariableType>
                   <ByteLength>0</ByteLength>
@@ -5180,7 +5484,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>91599</ID>
                   <Description>"enable"</Description>
-                  <LastState Value="1" RealAddress="0E625530"/>
+                  <LastState Value="1" RealAddress="0E61F530"/>
                   <VariableType>Byte</VariableType>
                   <Address>Param</Address>
                   <Offsets>
@@ -5192,7 +5496,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>91596</ID>
               <Description>"name"</Description>
-              <LastState RealAddress="1EB8CFB0"/>
+              <LastState RealAddress="1EB86FB0"/>
               <VariableType>String</VariableType>
               <Length>32</Length>
               <Unicode>1</Unicode>
@@ -5208,7 +5512,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>91684</ID>
                   <Description>"data"</Description>
-                  <LastState Value="" RealAddress="1C1D4A60"/>
+                  <LastState Value="" RealAddress="1C1CEA60"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>Array of byte</VariableType>
                   <ByteLength>0</ByteLength>
@@ -5222,7 +5526,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>91597</ID>
                   <Description>"enable"</Description>
-                  <LastState Value="1" RealAddress="0E625578"/>
+                  <LastState Value="1" RealAddress="0E61F578"/>
                   <VariableType>Byte</VariableType>
                   <Address>Param</Address>
                   <Offsets>
@@ -5234,7 +5538,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>91647</ID>
               <Description>"name"</Description>
-              <LastState RealAddress="1EA72FB0"/>
+              <LastState RealAddress="1EA6CFB0"/>
               <VariableType>String</VariableType>
               <Length>32</Length>
               <Unicode>1</Unicode>
@@ -5250,7 +5554,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>91685</ID>
                   <Description>"data"</Description>
-                  <LastState Value="" RealAddress="1C1D4BA0"/>
+                  <LastState Value="" RealAddress="1C1CEBA0"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>Array of byte</VariableType>
                   <ByteLength>0</ByteLength>
@@ -5264,7 +5568,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>91648</ID>
                   <Description>"enable"</Description>
-                  <LastState Value="1" RealAddress="0E6255C0"/>
+                  <LastState Value="1" RealAddress="0E61F5C0"/>
                   <VariableType>Byte</VariableType>
                   <Address>Param</Address>
                   <Offsets>
@@ -5276,7 +5580,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>91645</ID>
               <Description>"name"</Description>
-              <LastState RealAddress="1EA70FB0"/>
+              <LastState RealAddress="1EA6AFB0"/>
               <VariableType>String</VariableType>
               <Length>32</Length>
               <Unicode>1</Unicode>
@@ -5292,7 +5596,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>91686</ID>
                   <Description>"data"</Description>
-                  <LastState Value="" RealAddress="1C1D56A0"/>
+                  <LastState Value="" RealAddress="1C1CF6A0"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>Array of byte</VariableType>
                   <ByteLength>0</ByteLength>
@@ -5306,7 +5610,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>91646</ID>
                   <Description>"enable"</Description>
-                  <LastState Value="1" RealAddress="0E625608"/>
+                  <LastState Value="1" RealAddress="0E61F608"/>
                   <VariableType>Byte</VariableType>
                   <Address>Param</Address>
                   <Offsets>
@@ -5320,8 +5624,54 @@ dealloc(newmem)
         <CheatEntry>
           <ID>1337046337</ID>
           <Description>"Session"</Description>
+          <Options moHideChildren="1"/>
           <LastState Value="" RealAddress="00000000"/>
           <GroupHeader>1</GroupHeader>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>1337046701</ID>
+          <Description>"WIP"</Description>
+          <Options moHideChildren="1"/>
+          <LastState Value="" RealAddress="00000000"/>
+          <GroupHeader>1</GroupHeader>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>1337046473</ID>
+              <Description>"Signs RefreshRate (Test/Dont use this)"</Description>
+              <LastState/>
+              <VariableType>Auto Assembler Script</VariableType>
+              <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+alloc(newmem,256,"DarkSoulsRemastered.exe"+10EC65A)
+label(returnhere)
+label(originalcode)
+label(exit)
+
+newmem: //this is allocated memory, you have read,write,execute access
+mov [rcx+44],(float)0
+
+originalcode:
+movss xmm0,[rcx+44]
+
+exit:
+jmp returnhere
+
+"DarkSoulsRemastered.exe"+10EC65A:
+jmp newmem
+returnhere:
+
+
+ 
+ 
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+dealloc(newmem)
+"DarkSoulsRemastered.exe"+10EC65A:
+movss xmm0,[rcx+44]
+//Alt: db F3 0F 10 41 44
+</AssemblerScript>
+            </CheatEntry>
+          </CheatEntries>
         </CheatEntry>
       </CheatEntries>
     </CheatEntry>
@@ -6764,6 +7114,509 @@ dealloc(newmem)
         <Byte>C4</Byte>
         <Byte>20</Byte>
         <Byte>5B</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry>
+      <Description>Change of mov byte ptr [rsi+0000015C],00</Description>
+      <Address>1402C7A71</Address>
+      <ModuleName>DarkSoulsRemastered.exe</ModuleName>
+      <ModuleNameOffset>2C7A71</ModuleNameOffset>
+      <Before>
+        <Byte>BE</Byte>
+        <Byte>5C</Byte>
+        <Byte>01</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+      </Before>
+      <Actual>
+        <Byte>C6</Byte>
+        <Byte>86</Byte>
+        <Byte>5C</Byte>
+        <Byte>01</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+      </Actual>
+      <After>
+        <Byte>0F</Byte>
+        <Byte>B6</Byte>
+        <Byte>86</Byte>
+        <Byte>5D</Byte>
+        <Byte>01</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry>
+      <Description>Change of mulss xmm2,[rdi+rax*4+00000264]</Description>
+      <Address>14038FD66</Address>
+      <ModuleName>DarkSoulsRemastered.exe</ModuleName>
+      <ModuleNameOffset>38FD66</ModuleNameOffset>
+      <Before>
+        <Byte>63</Byte>
+        <Byte>C0</Byte>
+        <Byte>0F</Byte>
+        <Byte>28</Byte>
+        <Byte>D4</Byte>
+      </Before>
+      <Actual>
+        <Byte>F3</Byte>
+        <Byte>0F</Byte>
+        <Byte>59</Byte>
+        <Byte>94</Byte>
+        <Byte>87</Byte>
+        <Byte>64</Byte>
+        <Byte>02</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+      </Actual>
+      <After>
+        <Byte>0F</Byte>
+        <Byte>28</Byte>
+        <Byte>CA</Byte>
+        <Byte>41</Byte>
+        <Byte>0F</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry>
+      <Description>Change of movss xmm8,[rdi+rcx*4+00000264]</Description>
+      <Address>14038FD12</Address>
+      <ModuleName>DarkSoulsRemastered.exe</ModuleName>
+      <ModuleNameOffset>38FD12</ModuleNameOffset>
+      <Before>
+        <Byte>8F</Byte>
+        <Byte>04</Byte>
+        <Byte>03</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+      </Before>
+      <Actual>
+        <Byte>F3</Byte>
+        <Byte>44</Byte>
+        <Byte>0F</Byte>
+        <Byte>10</Byte>
+        <Byte>84</Byte>
+        <Byte>8F</Byte>
+        <Byte>64</Byte>
+        <Byte>02</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+      </Actual>
+      <After>
+        <Byte>F3</Byte>
+        <Byte>44</Byte>
+        <Byte>0F</Byte>
+        <Byte>10</Byte>
+        <Byte>A4</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry>
+      <Description>Change of movaps [rbx+00000210],xmm1</Description>
+      <Address>14038E3B0</Address>
+      <ModuleName>DarkSoulsRemastered.exe</ModuleName>
+      <ModuleNameOffset>38E3B0</ModuleNameOffset>
+      <Before>
+        <Byte>D4</Byte>
+        <Byte>0F</Byte>
+        <Byte>C6</Byte>
+        <Byte>CA</Byte>
+        <Byte>E4</Byte>
+      </Before>
+      <Actual>
+        <Byte>0F</Byte>
+        <Byte>29</Byte>
+        <Byte>8B</Byte>
+        <Byte>10</Byte>
+        <Byte>02</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+      </Actual>
+      <After>
+        <Byte>4C</Byte>
+        <Byte>8D</Byte>
+        <Byte>45</Byte>
+        <Byte>F0</Byte>
+        <Byte>48</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry>
+      <Description>Change of movdqa [rbx+000000F0],xmm0</Description>
+      <Address>14117E76D</Address>
+      <ModuleName>DarkSoulsRemastered.exe</ModuleName>
+      <ModuleNameOffset>117E76D</ModuleNameOffset>
+      <Before>
+        <Byte>40</Byte>
+        <Byte>20</Byte>
+        <Byte>48</Byte>
+        <Byte>8B</Byte>
+        <Byte>C3</Byte>
+      </Before>
+      <Actual>
+        <Byte>66</Byte>
+        <Byte>0F</Byte>
+        <Byte>7F</Byte>
+        <Byte>83</Byte>
+        <Byte>F0</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+      </Actual>
+      <After>
+        <Byte>E9</Byte>
+        <Byte>77</Byte>
+        <Byte>FE</Byte>
+        <Byte>FF</Byte>
+        <Byte>FF</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry>
+      <Description>Change of movss [rdi+rax*4+000002B4],xmm0</Description>
+      <Address>14038FCFA</Address>
+      <ModuleName>DarkSoulsRemastered.exe</ModuleName>
+      <ModuleNameOffset>38FCFA</ModuleNameOffset>
+      <Before>
+        <Byte>87</Byte>
+        <Byte>04</Byte>
+        <Byte>03</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+      </Before>
+      <Actual>
+        <Byte>F3</Byte>
+        <Byte>0F</Byte>
+        <Byte>11</Byte>
+        <Byte>84</Byte>
+        <Byte>87</Byte>
+        <Byte>B4</Byte>
+        <Byte>02</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+      </Actual>
+      <After>
+        <Byte>41</Byte>
+        <Byte>0F</Byte>
+        <Byte>28</Byte>
+        <Byte>F2</Byte>
+        <Byte>45</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry>
+      <Description>Change of movss [rdi+rax*4+00000264],xmm6</Description>
+      <Address>14038FCE1</Address>
+      <ModuleName>DarkSoulsRemastered.exe</ModuleName>
+      <ModuleNameOffset>38FCE1</ModuleNameOffset>
+      <Before>
+        <Byte>87</Byte>
+        <Byte>04</Byte>
+        <Byte>03</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+      </Before>
+      <Actual>
+        <Byte>F3</Byte>
+        <Byte>0F</Byte>
+        <Byte>11</Byte>
+        <Byte>B4</Byte>
+        <Byte>87</Byte>
+        <Byte>64</Byte>
+        <Byte>02</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+      </Actual>
+      <After>
+        <Byte>0F</Byte>
+        <Byte>2F</Byte>
+        <Byte>D1</Byte>
+        <Byte>77</Byte>
+        <Byte>04</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry>
+      <Description>Change of movaps [rbx+50],xmm0</Description>
+      <Address>140E4358E</Address>
+      <ModuleName>DarkSoulsRemastered.exe</ModuleName>
+      <ModuleNameOffset>E4358E</ModuleNameOffset>
+      <Before>
+        <Byte>00</Byte>
+        <Byte>0F</Byte>
+        <Byte>28</Byte>
+        <Byte>40</Byte>
+        <Byte>30</Byte>
+      </Before>
+      <Actual>
+        <Byte>0F</Byte>
+        <Byte>29</Byte>
+        <Byte>43</Byte>
+        <Byte>50</Byte>
+      </Actual>
+      <After>
+        <Byte>0F</Byte>
+        <Byte>28</Byte>
+        <Byte>48</Byte>
+        <Byte>40</Byte>
+        <Byte>0F</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry>
+      <Description>Change of call DarkSoulsRemastered.DLMT::DLIVecUtil::SinfCosf+20D230</Description>
+      <Address>140500BE2</Address>
+      <ModuleName>DarkSoulsRemastered.exe</ModuleName>
+      <ModuleNameOffset>500BE2</ModuleNameOffset>
+      <Before>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+        <Byte>48</Byte>
+        <Byte>8B</Byte>
+        <Byte>D7</Byte>
+      </Before>
+      <Actual>
+        <Byte>E8</Byte>
+        <Byte>69</Byte>
+        <Byte>B1</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+      </Actual>
+      <After>
+        <Byte>84</Byte>
+        <Byte>C0</Byte>
+        <Byte>75</Byte>
+        <Byte>0B</Byte>
+        <Byte>48</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry>
+      <Description>Change of call DarkSoulsRemastered.DLMT::DLIVecUtil::SinfCosf+204D30</Description>
+      <Address>140500BF1</Address>
+      <ModuleName>DarkSoulsRemastered.exe</ModuleName>
+      <ModuleNameOffset>500BF1</ModuleNameOffset>
+      <Before>
+        <Byte>8B</Byte>
+        <Byte>D7</Byte>
+        <Byte>48</Byte>
+        <Byte>8B</Byte>
+        <Byte>CB</Byte>
+      </Before>
+      <Actual>
+        <Byte>E8</Byte>
+        <Byte>5A</Byte>
+        <Byte>2C</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+      </Actual>
+      <After>
+        <Byte>48</Byte>
+        <Byte>8B</Byte>
+        <Byte>D6</Byte>
+        <Byte>48</Byte>
+        <Byte>8D</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry>
+      <Description>Change of call DarkSoulsRemastered.DLMT::DLIVecUtil::SinfCosf+2027C0</Description>
+      <Address>140500C09</Address>
+      <ModuleName>DarkSoulsRemastered.exe</ModuleName>
+      <ModuleNameOffset>500C09</ModuleNameOffset>
+      <Before>
+        <Byte>8B</Byte>
+        <Byte>D0</Byte>
+        <Byte>48</Byte>
+        <Byte>8B</Byte>
+        <Byte>CB</Byte>
+      </Before>
+      <Actual>
+        <Byte>E8</Byte>
+        <Byte>D2</Byte>
+        <Byte>06</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+      </Actual>
+      <After>
+        <Byte>48</Byte>
+        <Byte>8B</Byte>
+        <Byte>05</Byte>
+        <Byte>93</Byte>
+        <Byte>0D</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry>
+      <Description>Change of call DarkSoulsRemastered.exe+116FE0</Description>
+      <Address>140500C1C</Address>
+      <ModuleName>DarkSoulsRemastered.exe</ModuleName>
+      <ModuleNameOffset>500C1C</ModuleNameOffset>
+      <Before>
+        <Byte>D6</Byte>
+        <Byte>48</Byte>
+        <Byte>8B</Byte>
+        <Byte>48</Byte>
+        <Byte>20</Byte>
+      </Before>
+      <Actual>
+        <Byte>E8</Byte>
+        <Byte>BF</Byte>
+        <Byte>63</Byte>
+        <Byte>C1</Byte>
+        <Byte>FF</Byte>
+      </Actual>
+      <After>
+        <Byte>48</Byte>
+        <Byte>8B</Byte>
+        <Byte>0D</Byte>
+        <Byte>08</Byte>
+        <Byte>DC</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry>
+      <Description>Change of call DarkSoulsRemastered.DLMT::DLIVecUtil::SinfCosf+201F90</Description>
+      <Address>14050237D</Address>
+      <ModuleName>DarkSoulsRemastered.exe</ModuleName>
+      <ModuleNameOffset>50237D</ModuleNameOffset>
+      <Before>
+        <Byte>8B</Byte>
+        <Byte>D0</Byte>
+        <Byte>49</Byte>
+        <Byte>8B</Byte>
+        <Byte>CE</Byte>
+      </Before>
+      <Actual>
+        <Byte>E8</Byte>
+        <Byte>2E</Byte>
+        <Byte>E7</Byte>
+        <Byte>FF</Byte>
+        <Byte>FF</Byte>
+      </Actual>
+      <After>
+        <Byte>E9</Byte>
+        <Byte>6E</Byte>
+        <Byte>01</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry>
+      <Description>Change of call DarkSoulsRemastered.DLMT::DLIVecUtil::SinfCosf+17C9A0</Description>
+      <Address>1402DE7D9</Address>
+      <ModuleName>DarkSoulsRemastered.exe</ModuleName>
+      <ModuleNameOffset>2DE7D9</ModuleNameOffset>
+      <Before>
+        <Byte>A1</Byte>
+        <Byte>01</Byte>
+        <Byte>48</Byte>
+        <Byte>8B</Byte>
+        <Byte>D0</Byte>
+      </Before>
+      <Actual>
+        <Byte>E8</Byte>
+        <Byte>E2</Byte>
+        <Byte>CC</Byte>
+        <Byte>19</Byte>
+        <Byte>00</Byte>
+      </Actual>
+      <After>
+        <Byte>E9</Byte>
+        <Byte>D8</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry>
+      <Description>Change of call qword ptr [rax+10]</Description>
+      <Address>140502506</Address>
+      <ModuleName>DarkSoulsRemastered.exe</ModuleName>
+      <ModuleNameOffset>502506</ModuleNameOffset>
+      <Before>
+        <Byte>8E</Byte>
+        <Byte>70</Byte>
+        <Byte>02</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+      </Before>
+      <Actual>
+        <Byte>FF</Byte>
+        <Byte>50</Byte>
+        <Byte>10</Byte>
+      </Actual>
+      <After>
+        <Byte>48</Byte>
+        <Byte>8B</Byte>
+        <Byte>1F</Byte>
+        <Byte>48</Byte>
+        <Byte>8B</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry>
+      <Description>Change of call qword ptr [rax+20]</Description>
+      <Address>14050254F</Address>
+      <ModuleName>DarkSoulsRemastered.exe</ModuleName>
+      <ModuleNameOffset>50254F</ModuleNameOffset>
+      <Before>
+        <Byte>8E</Byte>
+        <Byte>70</Byte>
+        <Byte>02</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+      </Before>
+      <Actual>
+        <Byte>FF</Byte>
+        <Byte>50</Byte>
+        <Byte>20</Byte>
+      </Actual>
+      <After>
+        <Byte>90</Byte>
+        <Byte>48</Byte>
+        <Byte>8D</Byte>
+        <Byte>4D</Byte>
+        <Byte>B0</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry>
+      <Description>Change of call qword ptr [rax+68]</Description>
+      <Address>14050253B</Address>
+      <ModuleName>DarkSoulsRemastered.exe</ModuleName>
+      <ModuleNameOffset>50253B</ModuleNameOffset>
+      <Before>
+        <Byte>8B</Byte>
+        <Byte>01</Byte>
+        <Byte>48</Byte>
+        <Byte>8B</Byte>
+        <Byte>D7</Byte>
+      </Before>
+      <Actual>
+        <Byte>FF</Byte>
+        <Byte>50</Byte>
+        <Byte>68</Byte>
+      </Actual>
+      <After>
+        <Byte>48</Byte>
+        <Byte>8B</Byte>
+        <Byte>FB</Byte>
+        <Byte>49</Byte>
+        <Byte>8B</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry>
+      <Description>Change of call DarkSoulsRemastered.DLMT::DLIVecUtil::SinfCosf+BB5200</Description>
+      <Address>140502238</Address>
+      <ModuleName>DarkSoulsRemastered.exe</ModuleName>
+      <ModuleNameOffset>502238</ModuleNameOffset>
+      <Before>
+        <Byte>10</Byte>
+        <Byte>48</Byte>
+        <Byte>8D</Byte>
+        <Byte>4D</Byte>
+        <Byte>B0</Byte>
+      </Before>
+      <Actual>
+        <Byte>E8</Byte>
+        <Byte>E3</Byte>
+        <Byte>1A</Byte>
+        <Byte>9B</Byte>
+        <Byte>00</Byte>
+      </Actual>
+      <After>
+        <Byte>90</Byte>
+        <Byte>48</Byte>
+        <Byte>8D</Byte>
+        <Byte>4D</Byte>
+        <Byte>B0</Byte>
       </After>
     </CodeEntry>
   </CheatCodes>
